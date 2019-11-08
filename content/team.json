@@ -1,0 +1,33 @@
+[
+    {
+        "name": "Ines Guerra",
+        "cargo": "Head of Operations & Sales" ,
+        "linkedin": "https://www.linkedin.com/in/ines-guerra-molina-2847bb100/" 
+    },
+    {
+        "name": "Diego Méndez",
+        "cargo": "Head of Product",
+        "linkedin": "https://www.linkedin.com/in/diegomendezpe%C3%B1o/"  
+    },
+   
+    {
+        "name": "Simón G. Negrete",
+        "cargo": "Head of Design",
+        "linkedin": "https://www.linkedin.com/in/simongnegrete/" 
+    },
+    {
+        "name": "Alberto Soler",
+        "cargo": "Full Stack Developer" ,
+        "linkedin": "https://www.linkedin.com/in/albertosolerpalau/"  
+    },
+    {
+        "name": "María Losada",
+        "cargo": "Junior UX & UI",
+        "linkedin": "https://www.linkedin.com/in/mar%C3%ADalosada/"   
+    },
+    {
+        "name": "Rubén Villar",
+        "cargo": "Full Stack Developer",
+        "linkedin": "https://www.linkedin.com/in/rubenvillargrela/"   
+    }
+]

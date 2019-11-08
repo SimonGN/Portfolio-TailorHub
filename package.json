@@ -1,0 +1,41 @@
+{
+  "name": "tailorlanding",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node index.js",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=10.3.0",
+    "npm": "6.x"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "all": "^0.0.0",
+    "aos": "^2.3.4",
+    "babel-plugin-styled-components": "^1.10.0",
+    "express": "^4.17.1",
+    "global": "^4.3.2",
+    "i18next": "^17.0.7",
+    "next": "^8.0.3",
+    "next-compose": "^0.0.2",
+    "next-compose-plugins": "^2.1.1",
+    "next-fonts": "^0.17.0",
+    "next-i18next": "^0.52.1",
+    "next-images": "^1.1.1",
+    "parallax-provider": "0.0.1",
+    "popmotion": "^8.7.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-player": "^1.14.0",
+    "react-pose": "^4.0.8",
+    "react-scroll-parallax": "^2.1.2",
+    "react-scroll-percentage": "^4.1.0",
+    "react-slick": "^0.24.0",
+    "styled-components": "^4.1.3"
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "TitleIntro": "Hola ;D",
+    "Intro": "Si tienes un proyecto o reto digital, llámanos o envíanos un mail. Nos encantará responderte, con un buen café y un rato agradable.",
+    "Email": "hola@tailor-hub.com",
+    "LinkEmail":"mailto:hola@tailor-hub.com",
+    "Tel": "+34 644 564 713",
+    "TitleSocial": "Social",
+    "Linkedin":"Linkedin",
+    "LinkLinkedin":"https://www.linkedin.com/company/tailor-hub/",
+    "Instagram":"Instagram",
+    "LinkInstagram":"https://www.instagram.com/tailor_hub",
+    "TitleOffice": "Oficina",
+    "Direction":"Esteban Terradas 9, Madrid",
+    "LinkDirection":"https://goo.gl/maps/V6s7nae7nMDgQkHH7",
+    "Nav1": "Proyectos",
+    "LinkNav1": "",
+    "Nav2": "Lab",
+    "LinkNav2": "/lab",
+    "Nav3": "¿Hablamos?",
+    "LinkNav3": "/contact"
+}

@@ -1,0 +1,31 @@
+{
+    "Direction1": "Esteban Terradas 9, 1B",
+    "Direction2": "28036 (Madrid), Spain",
+
+    "Tel": "+34 644 564 713",
+    "Email": "hola@tailor-hub.com",
+
+    "Title1":"Site Map",
+    "Nav1":"Projects",
+    "LinkNav1":"/",
+    "Nav2":"Lab",
+    "LinkNav2":"/Lab",
+    "Nav3":"Spacio",
+    "LinkNav3":"/Spacio",
+    "Nav4":"Contact",
+    "LinkNav4":"/Contact",
+
+    "Title2":"Idioma",
+    "Idiom1":"Ingles",
+    "Idiom2":"Español",
+
+
+    "Title3":"RRSS",
+    "Red1":"Instagram",
+    "LinkRed1":"https://www.instagram.com/tailor_hub",
+    "Red2":"Linkedin",
+    "LinkRed2":"https://www.linkedin.com/company/tailor-hub/",
+    "Red3":"Spotify",
+    "LinkRed3":""
+}
+

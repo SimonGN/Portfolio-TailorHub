@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="55px" height="61px" viewBox="0 0 55 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Firma</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="NUNC-" transform="translate(-223.000000, -3490.000000)">
+            <g id="Firma" transform="translate(224.000000, 3491.000000)">
+                <polygon id="Path-5" stroke="#6DD18B" points="20.2484646 23.0501127 5.50940819 29.9141826 0 59.0232558 27.938458 49.8307126 33.4135872 34.402656 54 16.2481174 34.8344543 0"></polygon>
+                <path d="M0,59.0232558 L10.0465116,46.4651163" id="Path-6" stroke="#5DCC7E"></path>
+                <circle id="Oval" stroke="#5DCC7E" cx="12.5581395" cy="43.9534884" r="2.51162791"></circle>
+                <path d="M20.0930233,22.6046512 L32.6511628,33.9069767" id="Path-7" stroke="#6DD18B"></path>
+            </g>
+        </g>
+    </g>
+</svg>

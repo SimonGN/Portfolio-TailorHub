@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="34px" viewBox="0 0 31 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>basic_chronometer</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="NUNC-" transform="translate(-121.000000, -3971.000000)" stroke="#6DD18B">
+            <g id="basic_chronometer" transform="translate(122.000000, 3972.000000)">
+                <path d="M24.7526305,7.24742636 C30.4157898,12.909108 30.4157898,22.0901153 24.7526305,27.7517969 C19.0899891,33.4160677 9.90910471,33.4160677 4.24698109,27.7517969 C-1.41566036,22.0901153 -1.41566036,12.909108 4.24698109,7.24742636 C9.90910471,1.58419121 19.0899891,1.58419121 24.7526305,7.24742636 Z" id="Path"></path>
+                <polyline id="Path" points="15 3 15 0 18 0"></polyline>
+                <path d="M11,0.5 L14,0.5" id="Path"></path>
+                <path d="M14.5,32 L14.5,30" id="Path"></path>
+                <path d="M14.5,5 L14.5,3" id="Path"></path>
+                <path d="M0,17.5 L2,17.5" id="Path"></path>
+                <path d="M27,17.5 L29,17.5" id="Path"></path>
+                <path d="M5,9 L7,11" id="Path"></path>
+                <path d="M7,25 L5,27" id="Path"></path>
+                <path d="M14.5,10 L14.5,16" id="Path"></path>
+                <circle id="Oval" cx="14.5" cy="17.5" r="1.5"></circle>
+                <path d="M24,9 L22,11" id="Path"></path>
+                <path d="M22,25 L24,27" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>
