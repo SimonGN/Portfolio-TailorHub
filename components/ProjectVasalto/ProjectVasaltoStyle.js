@@ -4,7 +4,8 @@ const ProjectVasaltoStyle = styled.div`
   background-color: white;
   #video{
     width: 500px !important;
-    height: 300px!important;
+    height: 400px!important;
+    padding-top:20%;
     padding-bottom:10%;
     margin: 0 auto;
     pointer-events: none!important;
@@ -44,8 +45,11 @@ const ProjectVasaltoStyle = styled.div`
   img{
     width:100%;
   }
-  .mockupPC{
-    display:none;
+  .img2{
+
+    img:first-child{
+        padding-bottom:20%
+      }
   }
   .textImg{
     p{
@@ -54,11 +58,18 @@ const ProjectVasaltoStyle = styled.div`
     .img1{
       margin-bottom:20%;
     }
-    #video {
+        #video {
       width: 761px !important;
       height: 650px!important;
       padding-top: 8%;
       padding-bottom: 10%;
+    }
+    .textFly{
+      p:last-child{
+        width:94%;
+        margin:0 auto;
+        padding-bottom:20%;
+      }
     }
   }
   @media only screen and (min-width: 415px) and (max-width: 768px) {
@@ -90,12 +101,8 @@ const ProjectVasaltoStyle = styled.div`
       margin-bottom:15%;
       margin-bottom:15%;
     }
-    .mockupMovil{
-      display:none;
-    }
-    .mockupPC{
-      display:block;
-    }
+
+
   }
 
   @media only screen and (min-width: 769px) and (max-width: 1024px) {
@@ -121,6 +128,16 @@ const ProjectVasaltoStyle = styled.div`
         margin-bottom: 10%;
       }
     }
+    .container2{
+      p{
+        margin-bottom:15%;
+      }
+    }
+    .textImg{
+      p{
+        margin-bottom:15%;
+      }
+    }
     .infomationStye{
       display: flex;
       align-items: center;
@@ -133,8 +150,6 @@ const ProjectVasaltoStyle = styled.div`
 
     }
     .containerDos {
-      display: flex;
-      align-items: center;
       justify-content: space-between;
       padding-bottom: 10%;
       .text{
@@ -145,30 +160,29 @@ const ProjectVasaltoStyle = styled.div`
         width:100%;
       }
     }
-    .mockupMovil{
-      display:none;
-    }
-    .mockupPC{
-      display:block;
-    }
+
     .container2, .container3, .container4{
       width:80%;
       margin: 0 auto;
     }
+    .container3{
+      padding-bottom:0;
+    }
     .img2{
       position:relative;
+      img:first-child{
+        padding-bottom:10%
+      }
     }
     .textFly{
-      top:30%;
-      left: 6%;
+      top: 12%;
+      left: 9%;
       width:36%;
       position: absolute;
       z-index:1;
-      background-color:white;
-      padding:4%;
       opacity: 0.9;
-      p{
-        margin:0;
+      p:last-child{  
+        padding-bottom:0;
       }
     }
   }
@@ -182,8 +196,18 @@ const ProjectVasaltoStyle = styled.div`
     .title{
       width: 160%;
     }
-    .container1 {
+    .container1, .container2, .container3 {
       width: 80vw;
+    }
+    .container2{
+      p{
+        margin-bottom:15%; 
+      }
+    }
+    .container3{
+      p{
+        margin-bottom:15%;
+      }
     }
     .container1,
     .containerDos {
@@ -194,7 +218,7 @@ const ProjectVasaltoStyle = styled.div`
       margin-top:8%;
       margin-bottom:10%;
       div{
-        margin-bottom: 10%;
+        margin-bottom: 15%;
       }
     }
     .infomationStye{
@@ -221,26 +245,22 @@ const ProjectVasaltoStyle = styled.div`
         width:100%;
       }
     }
-    .mockupMovil{
-      display:none;
-    }
-    .mockupPC{
-      display:block;
-    }
+
     .img2{
       position:relative;
+      img:first-child{
+        padding-bottom:10%
+      }
     }
     .textFly{
-      top:40%;
-      left: 21%;
+      top: 15%;
+      left: 9%;
       width:36%;
       position: absolute;
       z-index:1;
-      background-color:white;
-      padding:4%;
       opacity: 0.9;
-      p{
-        margin:0;
+      p:last-child{  
+        padding-bottom:0;
       }
     }
   }
@@ -251,6 +271,9 @@ const ProjectVasaltoStyle = styled.div`
       padding-top: 4%;
       padding-bottom: 0;
     }
+    textImg{
+      padding-bottom:10%;
+    }
     .title{
       width: 100%;
       margin-right:10%;
@@ -260,6 +283,12 @@ const ProjectVasaltoStyle = styled.div`
       display:flex;
       justify-content: center;
       align-items: center;
+    }
+    .container2{
+      padding-bottom:0%;
+      img{
+        padding-bottom:0%;
+      }
     }
     .container2, .container3, .container4{
     width: 50%;
@@ -300,23 +329,19 @@ const ProjectVasaltoStyle = styled.div`
         width:100%;
       }
     }
-    .mockupMovil{
-      display:none;
-    }
-    .mockupPC{
-      display:block;
-    }
+
     .img2{
       position:relative;
+      img:first-child{
+        padding-bottom:10%
+      }
     }
     .textFly{
-      top:40%;
-      left: 21%;
-      width:36%;
+      top: 18%;
+      left: 25%;
+      width: 25%;
       position: absolute;
       z-index:1;
-      background-color:white;
-      padding:4%;
       opacity: 0.9;
       p{
         margin:0;

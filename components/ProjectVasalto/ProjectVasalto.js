@@ -30,6 +30,7 @@ const ProjectVasalto = props => {
                 playsinline={true}
                 volume={0}
                 muted='muted'
+                data-aos="fade-in" data-aos-duration="1000"
             />
 
             <div className="container1" data-aos="fade-in" data-aos-duration="1000">
@@ -53,24 +54,23 @@ const ProjectVasalto = props => {
                     </div>
                 </div>
             </div>
-            <div className="textImg">
-                <div className="container2">
+            <div className="textImg" >
+                <div className="container2" data-aos="fade-in" data-aos-duration="1000">
                     <Fontp>{t('pageDescription1')}</Fontp>
                 </div>
-                <div className="img1">
-                    <img className="mockupMovil" src="/static/img/projectAmaped/amapedScreen.jpg" />
-                    <img className="mockupPC" src="/static/img/projectAmaped/amapedScreen.jpg" />
+                <div className="img2"data-aos="fade-in" data-aos-duration="1000">
+                    <img className="mockup" src="/static/img/projectVasalto/vasaltoIpadScreen.jpg" />
                 </div>
-                <div className="container3">
+
+                <div className="container3"data-aos="fade-in" data-aos-duration="1000">
                     <Fontp>{t('pageDescription2')}</Fontp>
 
                 </div>
-                <div className="img2">
+                <div className="img2"data-aos="fade-in" data-aos-duration="1000">
                     <div className="textFly">
                         <Fontp>{t('pageDescription3')}</Fontp>
                     </div>
-                    <img className="mockupMovil" src="/static/img/projectAmaped/amapedScreen.jpg" />
-                    <img className="mockupPC" src="/static/img/projectAmaped/amapedScreen.jpg" />
+                    <img className="mockup" src="/static/img/projectVasalto/vasaltoIphoneScreen.jpg" />
                 </div>
 
             </div>

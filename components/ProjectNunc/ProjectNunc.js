@@ -68,7 +68,7 @@ const ProjectNunc = props => {
             <ReactPlayer
                 id="video"
                 playing={true}
-                url='https://player.vimeo.com/video/371643005?loop=1&badge=0&title=0&byline=0&portrait=0&autoplay=1&background=1'
+                url='https://player.vimeo.com/video/371854933?loop=1&badge=0&title=0&byline=0&portrait=0&autoplay=1&background=1'
                 loop={true}
                 playsinline={true}
                 volume={0}

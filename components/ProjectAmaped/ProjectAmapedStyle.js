@@ -644,10 +644,10 @@ const ProjectAmapedStyle = styled.div`
       padding-top: 0;
       padding-bottom: 15%;
       img {
-        width: 20vh;
+        width: 20vw;
       }
       p{
-        width: 80%;
+        width: 80vw;
         padding-top:0;
         padding-bottom:15%;
       }
@@ -726,6 +726,7 @@ const ProjectAmapedStyle = styled.div`
       width:100%;
     }
 
+    }
   }
 
   @media only screen and (min-width: 1025px) and (max-width: 1440px) {

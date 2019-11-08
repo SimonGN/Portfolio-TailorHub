@@ -897,7 +897,7 @@ const ProjectNuncStyle = styled.div`
       padding-bottom: 15%;
     }
     .container2{
-      padding-bottom:5%;
+      padding-bottom:9%;
     }
     #video{
       width: 900px !important;
