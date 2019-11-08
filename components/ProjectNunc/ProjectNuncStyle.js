@@ -17,7 +17,7 @@ const ProjectNuncStyle = styled.div`
   .container7 {
     width: 94vw;
     margin: 0 auto;
-    padding-bottom: 25%;
+    padding-bottom: 20%;
   }
 
   .imgHome {
@@ -68,14 +68,14 @@ const ProjectNuncStyle = styled.div`
 
   .animation {
     width: 100%;
-    margin-bottom: 10%;
+    margin-bottom: 20%;
   }
 
   .container3 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-bottom: 25%;
+    padding-bottom: 20%;
 
     img {
       position: relative;
@@ -116,7 +116,7 @@ const ProjectNuncStyle = styled.div`
     flex-flow: column;
   }
   .description3 {
-    margin-bottom: 30%;
+    margin-bottom: 20%;
   }
   .iphone2,
   .iphone1,
@@ -392,6 +392,13 @@ const ProjectNuncStyle = styled.div`
       opacity: 1;
     }
   }
+  #video{
+    width: 380px !important;
+    height: 290px!important;
+    padding-bottom:20%;
+    margin: 0 auto;
+    pointer-events: none!important;
+  }
 
   @media only screen and (min-width: 415px) and (max-width: 768px) {
     .esquemaMovil{
@@ -418,13 +425,13 @@ const ProjectNuncStyle = styled.div`
     }
 
     .container1 {
-      padding-bottom: 20%;
+      padding-bottom: 15%;
     }
 
     .container2 {
       display: flex;
       align-items: center;
-      padding-bottom: 25%;
+      padding-bottom: 10%;
     }
     .animation {
       width: 30%;
@@ -433,12 +440,17 @@ const ProjectNuncStyle = styled.div`
       margin: 0;
     }
     .description1 {
-      margin-left: 5%;
+      margin-left: 8%;
     }
 
     .container3 {
       display: flex;
       align-items: center;
+      padding-bottom: 20%;
+
+      img{
+        margin:0;
+      }
     }
     .img1,
     .img2,
@@ -481,11 +493,27 @@ const ProjectNuncStyle = styled.div`
       margin-top: 36%;
       left: 35%;
     }
+    .description3{
+      p{
+        padding-bottom:0%;
+      }
+    }
     .description5{
       padding-top:10%;
     }
+    #video{
+      width: 600px !important;
+      height: 700px!important;
+      padding-bottom:0;
+      padding-bottom:7%;
+      margin: 0 auto;
+      pointer-events: none!important;
+    }
   }
   @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .container1{
+      padding-bottom:18%;
+    }
     .mockup{
       display:block;
       width: 100vw;
@@ -535,7 +563,7 @@ const ProjectNuncStyle = styled.div`
     .container2 {
       display: flex;
       align-items: center;
-      padding-bottom: 25%;
+      padding-bottom: 8%;
     }
     .animation {
       width: 30%;
@@ -544,12 +572,13 @@ const ProjectNuncStyle = styled.div`
       margin: 0;
     }
     .description1 {
-      margin-left: 5%;
+      margin-left: 10%;
     }
 
     .container3 {
       display: flex;
       align-items: center;
+      padding-bottom: 18%;
     }
     .img1,
     .img2,
@@ -577,7 +606,10 @@ const ProjectNuncStyle = styled.div`
       margin-bottom: 10%;
     }
     .description5{
-      padding-top:25%;
+      padding-bottom:20%;
+      p{
+        padding-top:15%;
+      }
     }
 
     .iphone {
@@ -616,6 +648,14 @@ const ProjectNuncStyle = styled.div`
       margin-top: 36%;
       left: 35%;
     }
+    #video{
+      width: 800px !important;
+      height: 800px!important;
+      padding-bottom:0;
+      padding-bottom:7%;
+      margin: 0 auto;
+      pointer-events: none!important;
+    }
   }
   @media only screen and (min-width: 1025px) and (max-width: 1440px) {
     .imgHome{
@@ -635,7 +675,7 @@ const ProjectNuncStyle = styled.div`
       }
     }
 
-    .container1,
+    
     .container2,
     .container3,
     .container4,
@@ -643,6 +683,9 @@ const ProjectNuncStyle = styled.div`
     .container6,
     .container7 {
       padding-bottom: 20%;
+    }
+    .container1{
+      padding-bottom: 17%;
     }
     .tec {
       padding: 0;
@@ -685,6 +728,7 @@ const ProjectNuncStyle = styled.div`
       width: 65vw;
       display: flex;
       align-items: center;
+      padding-bottom:5%;
     }
 
     .animation {
@@ -694,12 +738,13 @@ const ProjectNuncStyle = styled.div`
       margin: 0;
     }
     .description1 {
-      margin-left: 5%;
+      margin-left: 10%;
     }
 
     .container3 {
       display: flex;
       align-items: center;
+      padding-bottom: 17%;
     }
 
     .img1,
@@ -709,7 +754,9 @@ const ProjectNuncStyle = styled.div`
       width: 23%;
       height: auto;
     }
-
+    .container5{
+      padding-bottom: 15%;
+    }
     .container4,
     .container5,
     .container6 {
@@ -718,7 +765,10 @@ const ProjectNuncStyle = styled.div`
       align-items: center;
     }
     .container6 {
-      padding-bottom: 25%;
+      a{
+        padding-top:5%;
+      }
+      padding-bottom: 17%;
     }
     .description2,
     .description3,
@@ -797,6 +847,14 @@ const ProjectNuncStyle = styled.div`
       width: 56%;
       left: 20%;
     }
+    #video{
+      width: 800px !important;
+      height: 800px!important;
+      padding-bottom:0;
+      padding-bottom:7%;
+      margin: 0 auto;
+      pointer-events: none!important;
+    }
   }
   @media only screen and (min-width: 1441px) {
     .mockup{
@@ -827,15 +885,27 @@ const ProjectNuncStyle = styled.div`
         mix-blend-mode:screen;
       }
     }
-
-    .container1,
-    .container2,
+    .container1{
+      padding-bottom: 12%;
+    }
+    
     .container3,
     .container4,
     .container5,
     .container6,
     .container7 {
-      padding-bottom: 20%;
+      padding-bottom: 15%;
+    }
+    .container2{
+      padding-bottom:5%;
+    }
+    #video{
+      width: 900px !important;
+      height: 800px!important;
+      padding-bottom:0;
+      padding-bottom:7%;
+      margin: 0 auto;
+      pointer-events: none!important;
     }
     .tec{
       width:40%;
@@ -863,6 +933,9 @@ const ProjectNuncStyle = styled.div`
       width: 65vw;
       display: flex;
       align-items: center;
+      div{
+        margin-left:5%;
+      }
     }
 
     .animation {
@@ -894,9 +967,13 @@ const ProjectNuncStyle = styled.div`
       display: flex;
       flex-flow: column;
       align-items: center;
+      padding-bottom:10%;
     }
     .container6 {
-      padding-bottom: 22%;
+      padding-bottom: 10%;
+      p{
+        padding-bottom:5%;
+      }
     }
     .description2,
     .description3,
@@ -905,7 +982,7 @@ const ProjectNuncStyle = styled.div`
       width: 55%;
     }
     .description3{
-      margin-bottom: 20%;
+      margin-bottom: 10%;
     }
     .iphone{
       flex-flow:row;
@@ -929,8 +1006,8 @@ const ProjectNuncStyle = styled.div`
       padding-bottom: 29%;
     }
     .container7{
-      height: 100vh;
-      padding-bottom: 39%;
+      height: 85vh;
+      padding-bottom: 36%;
     }
     .animation1 {
       width: 15%;

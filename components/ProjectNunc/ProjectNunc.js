@@ -9,6 +9,8 @@ import FontTitleInfo from "../../styles/fontsStyles/FontTitleInfo";
 import { withTranslation } from '../../i18n'
 import ProjectsNav from "../ProjectsNav/ProjectsNav";
 
+import ReactPlayer from 'react-player'
+
 
 
 const ProjectNunc = props => {
@@ -63,11 +65,15 @@ const ProjectNunc = props => {
             </div>
 
 
-
-            <div className="container4" >
-                <img className="esquemaPc" data-aos="fade-out" src="/static/img/projectNunc/graficoNunc.jpg" />
-                <img className="esquemaMovil" data-aos="fade-out" src="/static/img/projectNunc/graficoNuncMovil.jpg" />
-            </div>
+            <ReactPlayer
+                id="video"
+                playing={true}
+                url='https://player.vimeo.com/video/371643005?loop=1&badge=0&title=0&byline=0&portrait=0&autoplay=1&background=1'
+                loop={true}
+                playsinline={true}
+                volume={0}
+                muted='muted'
+            />
 
             <div className="container5">
                 <Fontp className="description3" data-aos="fade-in" data-aos-duration="1000">{t('pageDescription3')}</Fontp>

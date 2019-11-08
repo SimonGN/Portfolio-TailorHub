@@ -4,8 +4,7 @@ const ProjectVasaltoStyle = styled.div`
   background-color: white;
   #video{
     width: 500px !important;
-    height: 400px!important;
-    padding-top:20%;
+    height: 300px!important;
     padding-bottom:10%;
     margin: 0 auto;
     pointer-events: none!important;
@@ -54,6 +53,12 @@ const ProjectVasaltoStyle = styled.div`
     }
     .img1{
       margin-bottom:20%;
+    }
+    #video {
+      width: 761px !important;
+      height: 650px!important;
+      padding-top: 8%;
+      padding-bottom: 10%;
     }
   }
   @media only screen and (min-width: 415px) and (max-width: 768px) {

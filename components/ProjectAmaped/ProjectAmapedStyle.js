@@ -483,6 +483,9 @@ const ProjectAmapedStyle = styled.div`
         padding-top:0;
       }
     }
+    .mockup{
+      width:100%;
+    }
   }
 
   @media only screen and (min-width: 769px) and (max-width: 1024px) {
@@ -594,7 +597,10 @@ const ProjectAmapedStyle = styled.div`
     }
 
     .container3 {
-      padding-bottom: 20%;
+      padding-bottom: 10%;
+    }
+    .textInfo3{
+      padding-right:8%;
     }
     .containerTres {
       display: flex;
@@ -667,13 +673,17 @@ const ProjectAmapedStyle = styled.div`
       width: 100% !important;
     }
     .textInfo4{
+      padding-top:0;
       width:80%;
     }
     .video {
-    padding-top:15%;
-    padding-bottom: 15%;
-    height: 900px;
-  }
+      padding-top:15%;
+      padding-bottom: 15%;
+      height: 900px;
+    }
+    .mockup{
+      width:100%;
+    }
   }
   @media only screen and (max-height: 768px) and (max-width: 1024px) and (orientation:landscape){
     .imgHome {
@@ -707,6 +717,14 @@ const ProjectAmapedStyle = styled.div`
       width: 15%;
       top: 19%;
     }
+    .video {
+      padding-top:15%;
+      padding-bottom: 15%;
+      height: 900px;
+    }
+    .mockup{
+      width:100%;
+    }
 
   }
 
@@ -716,11 +734,12 @@ const ProjectAmapedStyle = styled.div`
       margin: 0 auto;
       display: flex;
       justify-content: center;
-      padding-top: 5%;
+      padding-top: 15%;
       padding-bottom: 15%;
+      
       img {
-        padding-bottom: 0;
-        width: 30vh;
+        padding-bottom: 5%;
+        width: 20vw;
       }
     }
     .imgHome {
@@ -832,9 +851,7 @@ const ProjectAmapedStyle = styled.div`
       width: 50%;
       padding-bottom: 0;
     }
-    .video {
-      padding-bottom: 0;
-    }
+
     .container2,
     .container3,
     .container4 {
@@ -926,6 +943,14 @@ const ProjectAmapedStyle = styled.div`
       left:1%;
       width: 109% !important;
     }
+    .video {
+      padding-top:15%;
+      padding-bottom: 15%;
+      height: 900px;
+    }
+    .mockup{
+      width:100%;
+    }
   }
   @media only screen and (min-width: 1441px) {
     .gif {
@@ -933,11 +958,14 @@ const ProjectAmapedStyle = styled.div`
       margin: 0 auto;
       display: flex;
       justify-content: center;
-      padding-top: 5%;
-      padding-bottom: 5%;
+      padding-top: 0%;
+      padding-bottom: 10%;
       img {
         padding-bottom: 0;
-        width: 30vh;
+        width: 10vw;
+      }
+      .textInfo3{
+        width: 90%;
       }
     }
     .imgHome {
@@ -989,7 +1017,7 @@ const ProjectAmapedStyle = styled.div`
     .textInfo3,
     .textInfo4,
     .textInfo5 {
-      width: 75%;
+      width: 70%;
       margin: 0 auto;
     }
 
@@ -1049,9 +1077,7 @@ const ProjectAmapedStyle = styled.div`
       width: 50%;
       padding-bottom: 0;
     }
-    .video {
-      padding-bottom: 0;
-    }
+
     .container2,
     .container3,
     .container4 {
@@ -1079,13 +1105,14 @@ const ProjectAmapedStyle = styled.div`
     }
     .ipad {
       z-index: 1;
-      top:3%;
+      top:-1%;
       margin-left: -3%;
       width: 110%;
+
     }
     .imgWeb1 {
       position: absolute;
-      padding-bottom: 0;
+      padding-bottom: 15%;
       width: 100%;
       left: 0;
     }
@@ -1095,7 +1122,7 @@ const ProjectAmapedStyle = styled.div`
       padding-bottom: 10%;
       p{
         padding-top:0;
-        width:80%;
+        width:60%;
       }
     }
     .webs {
@@ -1125,23 +1152,29 @@ const ProjectAmapedStyle = styled.div`
     .mockupScreen {
       padding-top: 0;
     }
-
-
     .fixed {
       position: fixed;
-      top: 2%;
+      top: -2%;
       bottom: 0;
-      left: 57%;
-      width: 38% !important;
+      left: 56%;
+      width: 39% !important;
     }
 
     .fixed2 {
       position: absolute;
-      top: none;
+      top: 67%;
       bottom: 0;
-      top: 72%;
+
       left:1%;
       width: 109% !important;
+    }
+    .video {
+      padding-top:10%;
+      padding-bottom: 10%;
+      height: 800px;
+    }
+    .mockup{
+      width:100%;
     }
   }
 `;
