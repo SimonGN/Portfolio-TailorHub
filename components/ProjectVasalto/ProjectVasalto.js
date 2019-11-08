@@ -57,6 +57,8 @@ const ProjectVasalto = props => {
             <div className="textImg" >
                 <div className="container2" data-aos="fade-in" data-aos-duration="1000">
                     <Fontp>{t('pageDescription1')}</Fontp>
+                    <a href="https://vasalto.com/" target="_blank"><Fontp data-aos="fade-in" data-aos-duration="1000">{t('web')}</Fontp></a>
+
                 </div>
                 <div className="img2"data-aos="fade-in" data-aos-duration="1000">
                     <img className="mockup" src="/static/img/projectVasalto/vasaltoIpadScreen.jpg" />

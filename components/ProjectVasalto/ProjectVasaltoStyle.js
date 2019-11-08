@@ -23,6 +23,12 @@ const ProjectVasaltoStyle = styled.div`
     margin-bottom:10%;
     width:0 margin;
   }
+  .container2{
+    display:flex;
+    flex-flow:column;
+    align-items:center;
+    padding-bottom:20%;
+  }
   .container2, .container3, .container4{
     width: 93vw;
     margin: 0 auto;
@@ -52,8 +58,11 @@ const ProjectVasaltoStyle = styled.div`
       }
   }
   .textImg{
-    p{
-      margin-bottom:20%;
+    p:first-child{
+      padding-bottom:10%;
+    }
+    p:last-child{
+      padding-bottom:20%;
     }
     .img1{
       margin-bottom:20%;
@@ -83,6 +92,9 @@ const ProjectVasaltoStyle = styled.div`
       margin-top:10%;
       margin-bottom:15%;
     }
+    .container2{
+      padding-bottom:15%;
+    }
     .containerDos {
       display: flex;
       align-items: center;
@@ -96,13 +108,20 @@ const ProjectVasaltoStyle = styled.div`
         width:100%;
       }
     }
-
-    .container2{
-      margin-bottom:15%;
-      margin-bottom:15%;
+    img2{
+      position:absolute;
     }
-
-
+    .textFly{
+      top: 2%;
+      left: 3%;
+      width: 40%;
+      position: absolute;
+      z-index:1;
+      opacity: 0.9;
+      p:last-child{  
+        padding-bottom:0;
+      }
+    }
   }
 
   @media only screen and (min-width: 769px) and (max-width: 1024px) {
@@ -129,13 +148,11 @@ const ProjectVasaltoStyle = styled.div`
       }
     }
     .container2{
-      p{
-        margin-bottom:15%;
-      }
+      padding-bottom:10%;
     }
     .textImg{
       p{
-        margin-bottom:15%;
+        margin-bottom:0%;
       }
     }
     .infomationStye{
@@ -174,6 +191,9 @@ const ProjectVasaltoStyle = styled.div`
         padding-bottom:10%
       }
     }
+    img2{
+      position:absolute;
+    }
     .textFly{
       top: 12%;
       left: 9%;
@@ -184,6 +204,11 @@ const ProjectVasaltoStyle = styled.div`
       p:last-child{  
         padding-bottom:0;
       }
+    }
+    .textImg {
+      p:last-child{
+      padding-bottom:15%;
+    }
     }
   }
   @media only screen and (min-width: 1025px) and (max-width: 1440px) {
@@ -200,14 +225,17 @@ const ProjectVasaltoStyle = styled.div`
       width: 80vw;
     }
     .container2{
-      p{
-        margin-bottom:15%; 
-      }
+      padding-bottom:10%;
     }
     .container3{
       p{
-        margin-bottom:15%;
+        margin-bottom:0%;
       }
+    }
+    .textImg {
+      p:last-child{
+      padding-bottom:15%;
+    }
     }
     .container1,
     .containerDos {
@@ -252,6 +280,8 @@ const ProjectVasaltoStyle = styled.div`
         padding-bottom:10%
       }
     }
+
+
     .textFly{
       top: 15%;
       left: 9%;
@@ -285,7 +315,7 @@ const ProjectVasaltoStyle = styled.div`
       align-items: center;
     }
     .container2{
-      padding-bottom:0%;
+      padding-bottom:10%;
       img{
         padding-bottom:0%;
       }
@@ -337,9 +367,9 @@ const ProjectVasaltoStyle = styled.div`
       }
     }
     .textFly{
-      top: 18%;
+      top: 15%;
       left: 25%;
-      width: 25%;
+      width: 21%;
       position: absolute;
       z-index:1;
       opacity: 0.9;

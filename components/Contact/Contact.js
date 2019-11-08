@@ -25,7 +25,7 @@ const Contact = props => {
           <div className="info">
             <Fontp className="intro">{t("Intro")}</Fontp>
             <a href="mailto:hola@tailor-hub.com?subject=Colaboración%20🔥🏖🏖🏖🏖🔥%20Tailor"><Fonta>{t("Email")}</Fonta></a>
-            <a href="tel:+34 652 916 505"><Fonta>{t("Tel")}</Fonta></a>
+            <a href="tel:+34 644 564 713"><Fonta>{t("Tel")}</Fonta></a>
           </div>
         </div>
 
