@@ -74,13 +74,29 @@ const ServicesStyle = styled.div`
             margin-bottom:8%;
             position:absolute;
             left: 4.5%;
-            top: 8%;
+            top: 15%;
             z-index: 1;
         }
         .svg {
             width:1000vw;
+            img{
+                width:200%; 
+            }
         }
     }
+    @media only screen and (max-height: 768px) and (max-width: 1024px) and (orientation:landscape){
+        .title{
+            left: 4.5%;
+            top: 15%;
+        }
+        .svg {
+            width:1000vw;
+            img{
+                width:200%; 
+            }
+        }
+    }
+
     @media only screen and (min-width:1025px) and (max-width:1440px){      
         display: flex;
         align-items: center;
@@ -95,11 +111,14 @@ const ServicesStyle = styled.div`
             margin-bottom:8%;
             position:absolute;
             left: 4.5%;
-            top: 8%;
+            top: 15%;
             z-index: 1;
         }
         .svg {
             width:1000vw;
+            img{
+                width:155%; 
+            }
         }
         .scroll1,.scroll3,.scroll2, .scroll4{
             display:block;
@@ -117,12 +136,15 @@ const ServicesStyle = styled.div`
             transform: rotate(180deg);
             margin-bottom:0%;
             position:absolute;
-            left: 6.5%;
-            top: 7%;
+            left: 6.6%;
+            top: 14.6%;
             z-index: 1;
         }
         .svg {
             width:700vw;
+            img{
+                width:200%; 
+            }
         }
         .scroll1,.scroll3,.scroll2, .scroll4{
             display:block;
