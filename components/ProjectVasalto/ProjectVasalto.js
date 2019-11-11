@@ -24,13 +24,15 @@ const ProjectVasalto = props => {
 
             <ReactPlayer
                 id="video"
-                playing={true}
+                playing
                 url='https://player.vimeo.com/video/371643005?loop=1&badge=0&title=0&byline=0&portrait=0&autoplay=1&background=1'
-                loop={true}
-                playsinline={true}
+                loop
+                playsinline
                 volume={0}
                 muted='muted'
+                controls={false}
                 data-aos="fade-in" data-aos-duration="1000"
+                config={{ vimeo: { playerOptions: { background: true }}}}
             />
 
             <div className="container1" data-aos="fade-in" data-aos-duration="1000">
