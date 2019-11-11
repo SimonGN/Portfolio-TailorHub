@@ -96,7 +96,7 @@ const ProjectNunc = props => {
                 <img className="animation8 sizeReverseAnimation" src="/static/img/projectNunc/iconIpadNunc5.svg" />
                 <img className="animation9" src="/static/img/projectNunc/ipadNunc.png" />
             </div>
-            <ProjectsNav backLink={"/projectvasalto"} nextLink={"/projectAmaped"}/>
+            <ProjectsNav backLink={"/projectVasalto"} nextLink={"/projectAmaped"}/>
         </ProjectNuncStyle>
 
     );
