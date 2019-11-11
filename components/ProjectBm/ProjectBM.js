@@ -95,7 +95,7 @@ const ProjectBM = props => {
             <img className="img8" data-aos="fade-left" src="/static/img/projectBM/bmimg5.png" />
           </div>
         </div>
-        <ProjectsNav color={"white"} backLink={"/projectMove"} nextLink={"/projectvasalto"}/>
+        <ProjectsNav color={"white"} backLink={"/projectMove"} nextLink={"/projectVasalto"}/>
       </ProjectBMStyle>
   );
 };

@@ -90,7 +90,7 @@ class OurProjects extends React.Component {
 
                   <div className="contentProject">
                     <div className="contentLogo">
-                      <Link style="cursor:pointer" href="/projectvasalto">
+                      <Link style="cursor:pointer" href="/projectVasalto">
                         <img style={{ "cursor": "pointer" }} className="logoVasalto" src="/static/svg/vasaltoLogoTailor.svg" />
                       </Link>
                     </div>
@@ -98,7 +98,7 @@ class OurProjects extends React.Component {
                       <img className="imgMove" src="/static/img/projectVasalto.jpg" />
                     </div>
                     <div className="viewMore">
-                      <Link style="cursor:pointer" href="/projectvasalto">
+                      <Link style="cursor:pointer" href="/projectVasalto">
                         <a>{t('pageTitle2Info1')}</a>
                       </Link>
                     </div>
