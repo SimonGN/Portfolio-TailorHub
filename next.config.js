@@ -13,6 +13,7 @@ const nextConfig = {
     '/projectBM': { page: '/projectBM' },
     '/projectMove': { page: '/projectMove' },
     '/projectNunc': { page: '/projectNunc' },
+    '/projectVasalto': { page: '/projectVasalto' },
   }),
 };
 
