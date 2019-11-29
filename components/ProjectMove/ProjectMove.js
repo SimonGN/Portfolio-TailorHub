@@ -2,7 +2,7 @@ import React from "react";
 
 import { ProjectMoveStyle } from "./ProjectMoveStyle";
 
-import Fonth1 from "../../styles/fontsStyles/Fonth1";
+import FontTitle from "../../styles/fontsStyles/FontTitle";
 import Fontp from "../../styles/fontsStyles/Fontp";
 import FontTitleInfo from "../../styles/fontsStyles/FontTitleInfo";
 import FontInfo from "../../styles/fontsStyles/FontInfo";
@@ -32,7 +32,7 @@ const ProjectMove = props => {
           </div>
           <div className="container1">
             <img className="logo" src="/static/img/projectMove/moveLogo.svg" />
-            <Fonth1 className="title">{t("pageTitle")}</Fonth1>
+            <FontTitle className="title">{t("pageTitle")}</FontTitle>
           </div>
         </div>
 

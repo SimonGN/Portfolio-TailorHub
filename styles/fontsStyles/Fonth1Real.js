@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 
-const Fonth1= styled.h1`
+const FontTitle= styled.h1`
     font-family: "Grabenbach";
     color: ${props => (props.color === 'white' ? 'white' : '#0F1C51')};
     font-size: 2rem;
@@ -11,4 +11,4 @@ const Fonth1= styled.h1`
 
 `;
 
-export default Fonth1;
+export default FontTitle;

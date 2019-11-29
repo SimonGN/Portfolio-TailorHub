@@ -4,8 +4,8 @@ import styled from 'styled-components';
 const Fontp = styled.p`
     font-family: "Grabenbach-regular";
     color: ${props => (props.color === 'white' ? 'white' : props.color === '#e50071' ? '#e50071' : '#0F1C51')};
-    line-height: 1.6rem;
-    font-size: 1.1rem;
+    line-height: 25px;
+    font-size: 16px;
     letter-spacing: 0.07rem;
     cursor: ${props => (props.cursor === true ? 'pointer' : '')};
     text-decoration: ${props => (props.decoration === 'underline' ? 'underline' : 'none')};

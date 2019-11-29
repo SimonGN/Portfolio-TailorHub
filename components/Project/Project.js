@@ -3,9 +3,8 @@ import Link from "next/link";
 import { ProjectStyle } from "./ProjectStyle";
 import { Galery } from "./Galery";
 
-import Fonth1 from "../../styles/fontsStyles/Fonth1";
-import FontInfo from "../../styles/fontsStyles/FontInfo";
-import FontTitleInfo from "../../styles/fontsStyles/FontTitleInfo";
+import Fonta from "../../styles/fontsStyles/Fonta";
+import Fontp from "../../styles/fontsStyles/Fontp";
 
 import Slider from "react-slick";
 
@@ -31,36 +30,37 @@ class OurProjects extends React.Component {
     return (
       <ProjectStyle>
         <div className="ourProject" ref={projectRef}>
-
           <div className="infomationStye">
             <div className="title">
-              <FontTitleInfo className="info1">{t('Project1')}</FontTitleInfo>
+              <Fontp className="info1" color="white">{t('Project1')}</Fontp>
             </div>
-            <div lassName="Description">
-              <FontInfo className="info2">{t('Description1')}</FontInfo>
-              <FontInfo className="info2">{t('Stack1')}</FontInfo>
-            </div>
-            <div className="viewMore">
-              <Link style="cursor:pointer" href="/projectAmaped"><a>{t('button1')}</a></Link>
-              <Link style="cursor:pointer" href="/projectAmaped"><a>{t('button2')}</a></Link>
-            </div>
-          </div>
-
-            <Galery >
-              <div>
-                <Slider {...settings}>
-
-                  <div className="contentProject">
-                    <div className="contentImg">
-                      <img className="imgProject" src="/static/img/project/tailorAmaped.jpg"/>
-                    </div>
-                  </div>
-
-                </Slider>
+            <div className="text">
+              <div lassName="Description">
+                <Fontp className="info1"color="white">{t('Description1')}</Fontp>
+                <Fontp className="info2"color="white">{t('Stack1')}</Fontp>
               </div>
-            </Galery>
-
+              <div className="viewMore">
+                <Link style="cursor:pointer" href="/projectAmaped"><Fonta>{t('button1')}</Fonta></Link>
+                <Link style="cursor:pointer" href="/projectAmaped"><Fonta>{t('button2')}</Fonta></Link>
+              </div>
+            </div>
           </div>
+
+          <Galery >
+            <div>
+              <Slider {...settings}>
+
+                <div className="contentProject">
+                  <div className="contentImg">
+                    <img className="imgProject" src="/static/img/project/tailorAmaped.jpg" />
+                  </div>
+                </div>
+
+              </Slider>
+            </div>
+          </Galery>
+
+        </div>
       </ProjectStyle>
     );
   }

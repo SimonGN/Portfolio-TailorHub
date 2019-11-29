@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const ServicesStyle = styled.div`
     display: flex;
     align-items: center;
-    padding-top:25%;
+    padding-bottom:100px;
     @-webkit-keyframes drift{
     0% {
         -webkit-transform:translateX(0);
@@ -33,7 +33,6 @@ const ServicesStyle = styled.div`
 
     .global{
         position:relative;
-        padding-bottom: 25%;
     }
 
     .title{

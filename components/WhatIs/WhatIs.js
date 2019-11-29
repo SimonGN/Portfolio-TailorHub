@@ -1,7 +1,7 @@
 import React from "react";
 import { WhatIsStyle } from "./WhatIsStyle";
 
-import Fonth1 from "../../styles/fontsStyles/Fonth1";
+import FontTitle from "../../styles/fontsStyles/FontTitle";
 import Fontp from "../../styles/fontsStyles/Fontp";
 
 import { withTranslation } from "../../i18n";
@@ -23,7 +23,7 @@ const WhatIs = props => {
           </div>
         </div>
         <div className="title">
-          <Fonth1 >{t("pageTitle1")}</Fonth1>
+          <FontTitle >{t("pageTitle1")}</FontTitle>
         </div>
         <div className="text"data-aos="fade-in" data-aos-duration="2300">
             <Fontp>{t("pageTitle1Info1")}</Fontp>

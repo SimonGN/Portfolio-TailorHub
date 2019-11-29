@@ -1,7 +1,7 @@
 import React from "react";
 import { WeWorkStyle } from "./WeWorkStyle";
 
-import Fonth1 from "../../styles/fontsStyles/Fonth1";
+import FontTitle from "../../styles/fontsStyles/FontTitle";
 import Fontp from "../../styles/fontsStyles/Fontp";
 import Fonta from "../../styles/fontsStyles/Fonta";
 
@@ -16,7 +16,7 @@ const WeWork = props => {
             <div className="conteiner1">
                 <img className="imgs1" src="/static/img/Ipad.png"></img>
                 <div className="info1">
-                    <Fonth1 className="title1">{t('pageTitle3')}</Fonth1>
+                    <FontTitle className="title1">{t('pageTitle3')}</FontTitle>
                     <div className="paragraph1">                        
                         <Fontp>{t('pageTitle3Info1')}</Fontp>
                         <Fontp>{t('pageTitle3Info2')}</Fontp>

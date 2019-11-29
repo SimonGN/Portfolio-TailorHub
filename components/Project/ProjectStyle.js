@@ -1,9 +1,12 @@
 import styled from 'styled-components';
 
 const ProjectStyle = styled.div`
-padding-bottom:35%;
+padding-bottom:100px;
   Link{
     cursor:pointer;
+  }
+  p{
+    margin-bottom: 10px;
   }
   .slick-slider , .slick-track, .slick-active, .slick-current, .slick-initialized, .slick-list{
     outline: none !important;
@@ -19,26 +22,27 @@ padding-bottom:35%;
       padding-top: 3%;
     }
   .infomationStye{
-    width:30vw;
-    position:absolute;
-    display:flex;
-    flex-direction:row;
-    align-items: center;
+    width:94vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    position: unset;
     z-index: 1;
-  }
-  .title{
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
+    margin:0 auto;
+    margin-top: 30px;
+    p{
+      color: #0F1C51;
+    }
   }
   .ourProject {
     width:100vw;
     height: auto;
     margin: 0 auto;
-    padding-top: 25%;
     display: flex;
     flex-flow: column;
     align-content: center;
     justify-content: center;
+    flex-direction: column-reverse;
   }
 
   .contentProject {
@@ -52,58 +56,132 @@ padding-bottom:35%;
     text-align: center;
   }
   .imgProject {
-    height: 50vh;
+    height: 70vh;
     object-fit: cover;
   }
-  .viewMore {
-    z-index: 2;
-  }
-  .viewMore > a  {
-    font-family: Grabenbach-regular;
-    font-size: 0.8rem;
-    letter-spacing: 0.05rem;
-    color: white;
+  .viewMore{
+    a{
+        margin-right: 10%;
+      }
   }
 
   @media only screen and (min-width:415px) and (max-width:768px){
+    
+  }
+  @media only screen and (min-width:769px) and (max-width:1024px){
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    padding-bottom:20%;
+    .ourProject{
+      justify-content: flex-end;
+      align-items: baseline;
+    }
+    .infomationStye{
+      margin-left:1%;
+      padding-bottom: 5%;
+      position:absolute;
+    }
     .title{
-        margin-bottom:6%;
+      writing-mode: vertical-rl;
+      transform: rotate(180deg);
+      margin-right:5%;
+      margin-right: 0;
+      margin-left: 0;
+    }
+    .info2{
+      margin-top:5%;
+    }
+    .viewMore{
+      margin-top: 5%;
+      a{
+        margin-right: 10%;
       }
     }
-    @media only screen and (min-width:769px) and (max-width:1024px){
-      padding-bottom:20%;
-      display: flex;
-      align-items: center;
-      .imgProject {
-        height: 90vh;
-        width: 100vw;
+    .imgProject {
+      height: 90vh;
+      width: 100vw;
+    }
+    .ourProject{
+      padding-top: 20%;
+    }
+  }
+  @media only screen and (min-width:1025px) and (max-width:1440px){
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    padding-bottom:20%;
+    .ourProject{
+      justify-content: flex-end;
+      align-items: baseline;
+    }
+    .infomationStye{
+      margin-left:1%;
+      padding-bottom: 5%;
+      position:absolute;
+    }
+    .title{
+      writing-mode: vertical-rl;
+      transform: rotate(180deg);
+      margin-right:5%;
+      margin-right: 0;
+      margin-left: 0;
+    }
+    .info2{
+      margin-top:5%;
+    }
+    .viewMore{
+      margin-top: 5%;
+      a{
+        margin-right: 10%;
       }
     }
-    @media only screen and (min-width:1025px) and (max-width:1440px){
-      display: flex;
-      align-items: center;
-      padding-bottom:20%;
-
-      .imgProject {
-        height: 90vh;
-        width: 100vw;
-      }
-      .ourProject{
-        padding-top: 20%;
+    .imgProject {
+      height: 90vh;
+      width: 100vw;
+    }
+    .ourProject{
+      padding-top: 20%;
+    }
+  }
+  @media only screen and (min-width:1441px){
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    padding-bottom:20%;
+    .ourProject{
+      justify-content: flex-end;
+      align-items: baseline;
+    }
+    .infomationStye{
+      margin-left:1%;
+      padding-bottom: 5%;
+      position:absolute;
+    }
+    .title{
+      writing-mode: vertical-rl;
+      transform: rotate(180deg);
+      margin-right:5%;
+      margin-right: 0;
+      margin-left: 0;
+    }
+    .info2{
+      margin-top:5%;
+    }
+    .viewMore{
+      margin-top: 5%;
+      a{
+        margin-right: 10%;
       }
     }
-    @media only screen and (min-width:1441px){
-      padding-bottom:20%;
-      display: flex;
-      align-items: center;
-      .imgProject {
-        height: 90vh;
-        width: 100vw;
-      }
-      .ourProject{
-        padding-top: 20%;
-      }
+    .imgProject {
+      height: 90vh;
+      width: 100vw;
     }
+    .ourProject{
+      padding-top: 20%;
+    }
+  }
 
 `;
 

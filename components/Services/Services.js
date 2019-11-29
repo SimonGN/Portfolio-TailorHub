@@ -1,7 +1,7 @@
 import React from "react";
 
 import { ServicesStyle } from "./ServicesStyle";
-import Fonth1 from "../../styles/fontsStyles/Fonth1";
+import FontTitle from "../../styles/fontsStyles/FontTitle";
 
 import { withTranslation} from '../../i18n'
 
@@ -13,7 +13,7 @@ const Tailor = props => {
         
         <ServicesStyle>
             <div className="global">
-                <Fonth1 className="title">{t('pageTitle4')}</Fonth1>
+                <FontTitle className="title">{t('pageTitle4')}</FontTitle>
                 <div className="svg">
                     <img className="scroll1" src="/static/svg/services/scroll1.svg"></img>
                     <img className="scroll2" src="/static/svg/services/scroll2.svg"></img>

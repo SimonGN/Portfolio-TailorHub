@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 
-const Fonth1 = styled.p`
+const FontTitle = styled.p`
     font-family: "Grabenbach";
     color: ${props => (props.color === 'white' ? 'white' : '#0F1C51')};
     font-size: 0.9rem;
@@ -14,23 +14,18 @@ const Fonth1 = styled.p`
         font-size: 1.2rem;
     }
     @media only screen and (min-width:769px) and (max-width:1024px){
-        font-size: 0.9rem;
+        font-size: 12px;
+        line-height: 16px;
         writing-mode: ${props => (props.writing === 'vertical-rl' ? 'vertical-rl' : 'inherit')};
         transform: ${props => (props.rotate === 'rotate(180deg)' ? 'rotate(180deg)' : 'rotate(0)')};
         margin:0;
     }
     @media only screen and (min-width:1025px) and (max-width:1440px){
-        font-size: 1rem;
-        writing-mode: ${props => (props.writing === 'vertical-rl' ? 'vertical-rl' : 'inherit')};
-        transform: ${props => (props.rotate === 'rotate(180deg)' ? 'rotate(180deg)' : 'rotate(0)')};
-        margin:0;
+
     }
     @media only screen and (min-width:1441px){
-        font-size: 1rem;
-        writing-mode: ${props => (props.writing === 'vertical-rl' ? 'vertical-rl' : 'inherit')};
-        transform: ${props => (props.rotate === 'rotate(180deg)' ? 'rotate(180deg)' : 'rotate(0)')};
-        margin:0;
+
     }
 `;
 
-export default Fonth1;
+export default FontTitle;

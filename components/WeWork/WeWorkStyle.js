@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 
 const WeWorkStyle = styled.div`
+padding-bottom:100px;
+  p{
+    margin-bottom:10px;
+  }
   .conteiner1 {
     height: auto;
     margin: 0 auto;
@@ -10,14 +14,13 @@ const WeWorkStyle = styled.div`
     justify-content: center;
   }
   .conteiner2, .conteinerHiring {
-    padding-bottom:25%;
     width: 94vw;
     margin: 0 auto;
   }
   .conteiner2{
-    padding-top:25%;
     display:flex;
     flex-flow:column;
+    padding-bottom:100px;
   }
 
   .title2{
@@ -25,6 +28,12 @@ const WeWorkStyle = styled.div`
   }
   .paragraph2{
     order:3;
+    div{
+      padding-bottom:10px;
+      p{
+        margin-bottom:0;
+      }
+    }
   }
   .conteinerHiring {
     display: flex;
@@ -32,7 +41,7 @@ const WeWorkStyle = styled.div`
     justify-content: center;
   }
   .title1, .title2 {
-    margin-bottom: 8%;
+    margin-bottom: 15px;
   }
   .imgs1 {
     width: 106vw;
@@ -43,9 +52,6 @@ const WeWorkStyle = styled.div`
     width: 94vw;
     margin-bottom: 5%;
     order:2;
-  }
-  p {
-    margin-bottom: 5%;
   }
   @media only screen and (min-width: 415px) and (max-width: 768px) {
     .paragraph2 {

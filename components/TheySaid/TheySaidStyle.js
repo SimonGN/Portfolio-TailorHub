@@ -4,14 +4,20 @@ import styled from 'styled-components';
 const TheySaidStyle = styled.div`
     background-color: #0F1C51;
     height:auto;
+    padding-top:100px;
+    padding-bottom:100px;
     outline: none !important;
     .slick-slider , .slick-track, .slick-active, .slick-current, .slick-initialized, .slick-list{
     outline: none !important;
-
+    .vp-center{
+        margin-bottom:10px;
+    }
     .client {
         outline: none;
     }
-    
+    .videoText{
+        margin-top:15px;
+    }
     &:active{
         outline: none !important;
     }
@@ -19,8 +25,6 @@ const TheySaidStyle = styled.div`
     .global{
         width:90%;
         margin: 0 auto;
-        padding-top:30%;
-        padding-bottom:25%;
     }
     .title, .subTitle, .infoClient{
         margin:auto;
@@ -29,7 +33,7 @@ const TheySaidStyle = styled.div`
         padding-bottom:25%;
     }
     .subTitle{
-        margin-bottom: 10%;
+        margin-bottom: 15px;
     }
     .embed-container { 
         position: relative; 
@@ -47,7 +51,8 @@ const TheySaidStyle = styled.div`
         height: 100%;
     }
     .nameText{
-        margin-top:4%;
+        margin-top:15px;
+        margin-bottom:20px;
     }
     @media only screen and (min-width:415px) and (max-width:768px){
         .title{

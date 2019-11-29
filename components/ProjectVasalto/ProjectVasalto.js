@@ -3,7 +3,7 @@ import React from "react";
 import ProjectVasaltoStyle from "./ProjectVasaltoStyle";
 
 
-import Fonth1 from "../../styles/fontsStyles/Fonth1";
+import FontTitle from "../../styles/fontsStyles/FontTitle";
 import Fontp from "../../styles/fontsStyles/Fontp";
 import FontInfo from "../../styles/fontsStyles/FontInfo";
 import FontTitleInfo from "../../styles/fontsStyles/FontTitleInfo";
@@ -36,7 +36,7 @@ const ProjectVasalto = props => {
             />
 
             <div className="container1" data-aos="fade-in" data-aos-duration="1000">
-                <Fonth1 className="title">{t('pageTitle')}</Fonth1>
+                <FontTitle className="title">{t('pageTitle')}</FontTitle>
                 <div className="information">
                     <div className="infomationStye">
                         <FontTitleInfo className="info1">{t('pageInfoTitle1')}</FontTitleInfo>

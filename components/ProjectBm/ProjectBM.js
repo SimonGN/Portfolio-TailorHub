@@ -2,7 +2,7 @@ import React from "react";
 
 import { ProjectBMStyle } from "./ProjectBMStyle";
 
-import Fonth1 from "../../styles/fontsStyles/Fonth1";
+import FontTitle from "../../styles/fontsStyles/FontTitle";
 import Fontp from "../../styles/fontsStyles/Fontp";
 import FontTitleInfo from "../../styles/fontsStyles/FontTitleInfo";
 import FontInfo from "../../styles/fontsStyles/FontInfo";
@@ -20,9 +20,9 @@ const ProjectBM = props => {
           <div>
             <img data-aos="fade-right" className="imgMovil" src="/static/img/projectBM/bmimg0.png" />
             <div className="container1" >
-              <Fonth1 className="title" color="white" data-aos="fade-up">
+              <FontTitle className="title" color="white" data-aos="fade-up">
                 {t("pageTitle")}
-              </Fonth1>
+              </FontTitle>
             </div>
           </div>
 

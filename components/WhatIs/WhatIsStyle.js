@@ -2,25 +2,30 @@ import styled from 'styled-components';
 
 const WhatIsStyle = styled.div`
   width: 100vw;
+  padding-bottom:100px;
   img{
     object-fit:cover
+  }
+  p{
+    margin-bottom:10px;
   }
   .global {
     width: 93vw;
     height: auto;
-    padding-top: 25%;
+    padding-top: 70px;
+
     margin: 0 auto;
     display: flex;
     flex-flow: column;
     justify-content: center;
   }
   .title {
-    margin-bottom: 8%;
+    margin-bottom: 15px;
   }
   .imgGlobal {
     width:100%;
     display: flex;
-    padding-bottom: 12%;
+    padding-bottom: 30px;
     justify-content: center;
     flex-direction: column;
   }
@@ -39,14 +44,13 @@ const WhatIsStyle = styled.div`
   .img2, .img1{
     margin-bottom: 4%;
   }
-  p{
-    margin-bottom:5%;
-  }
+
 
   @media only screen and (min-width: 415px) and (max-width: 768px) {
     .global {
       height: auto;
-      padding-top:15%;
+      padding-top: 80px;
+      
     }
     .img1,.img2,.img3,.img4 {
       width: 30%;
@@ -60,8 +64,11 @@ const WhatIsStyle = styled.div`
       margin-bottom: 2%;
     }
     .title {
-      margin-bottom: 6%;
+      margin-bottom: 20px;
     }
+    p{
+    margin-bottom:15px;
+  }
   }
   @media only screen and (min-width: 769px) and (max-width: 1024px) {
     .global {

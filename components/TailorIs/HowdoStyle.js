@@ -3,9 +3,13 @@ import styled from 'styled-components';
 
 const HowDoStyle = styled.div`
     background-color: #dae1ff;
+    margin-bottom: 100px;
+    p{
+        margin-bottom:10px;
+    }
     .conteiner1{
-        padding-top: 25%;
-        padding-bottom: 25%;
+        padding-top: 100px;
+        padding-bottom: 100px;
         width: 93vw;
         height:auto;
         margin: 0 auto;
@@ -13,15 +17,12 @@ const HowDoStyle = styled.div`
         flex-flow:column;
         justify-content:center;
     }
-    .title{
-        margin-bottom:8%;
-        
+    .title {
+        margin-bottom: 15px;
     }
-    p{
-        margin-bottom:5%;
-    }
+
     .text1{
-        margin-bottom:20%;
+        margin-bottom:30px;
     }
     .imgValors {
         width: 100%;

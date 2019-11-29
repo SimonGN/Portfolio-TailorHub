@@ -3,7 +3,7 @@ import React from "react";
 import { ProjectNuncStyle } from "./ProjectNuncStyle";
 
 
-import Fonth1 from "../../styles/fontsStyles/Fonth1";
+import FontTitle from "../../styles/fontsStyles/FontTitle";
 import Fontp from "../../styles/fontsStyles/Fontp";
 import FontTitleInfo from "../../styles/fontsStyles/FontTitleInfo";
 import { withTranslation } from '../../i18n'
@@ -23,7 +23,7 @@ const ProjectNunc = props => {
             <div className="imgHome">
                     <div className="info" data-aos="fade-up">
                         <img className="logo" src="/static/svg/logoNunc.svg" />
-                        <Fonth1 color="white" className="title">{t('pageTitle')}</Fonth1>
+                        <FontTitle color="white" className="title">{t('pageTitle')}</FontTitle>
                     </div>
             </div>
 

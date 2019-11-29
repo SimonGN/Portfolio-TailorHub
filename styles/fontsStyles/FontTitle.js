@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
-const Fonth1 = styled.h1`
+const FontTitle = styled.h2`
   font-family: "Grabenbach";
   color: ${props => (props.color === 'white' ? 'white' : '#0F1C51')};
-  font-size: 1.8rem;
+  font-size: 32px;
   letter-spacing: 0.07rem;
   text-align: ${props => (props.align === 'center' ? 'center' : 'left')};
 
@@ -21,4 +21,4 @@ const Fonth1 = styled.h1`
   }
 `
 
-export default Fonth1;
+export default FontTitle;
