@@ -123,21 +123,15 @@ const Galery = styled.div`
   .slick-next {
     font-size: 0;
     line-height: 0;
-
+    display: none;
     position: absolute;
     top: 50%;
-
-    display: none;
-
-    width: 20px;
+    width: 0px;
     height: 20px;
     padding: 0;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
-
-    cursor: pointer;
-
     color: transparent;
     border: none;
     outline: none;
@@ -150,6 +144,7 @@ const Galery = styled.div`
     color: transparent;
     outline: none;
     background: transparent;
+    display: none;
   }
   .slick-prev:hover:before,
   .slick-prev:focus:before,
@@ -168,10 +163,9 @@ const Galery = styled.div`
     font-family: "slick";
     font-size: 20px;
     line-height: 1;
-
+    display: none;
     opacity: 0.75;
     color: white;
-
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
