@@ -5,7 +5,7 @@ const HowDoStyle = styled.div`
     background-color: #dae1ff;
     margin-bottom: 100px;
     p{
-        margin-bottom:10px;
+        margin-bottom:15px;
     }
     .conteiner1{
         padding-top: 100px;
@@ -18,20 +18,17 @@ const HowDoStyle = styled.div`
         justify-content:center;
     }
     .title {
-        margin-bottom: 15px;
+        margin-bottom: 20px;
     }
 
     .text1{
-        margin-bottom:30px;
+        margin-bottom:25px;
     }
     .imgValors {
         width: 100%;
     }
 
     @media only screen and (min-width:415px) and (max-width:768px){
-        .title{
-            margin-bottom:6%;
-        }
         .imgValors {
             width: 60%;
         }
@@ -41,14 +38,14 @@ const HowDoStyle = styled.div`
     }
 
     @media only screen and (min-width:769px) and (max-width:1024px){
-
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-bottom: 130px;
         
         .conteiner1{
-            padding-top: 20%;
-            padding-bottom: 20%;
+            padding-top: 130px;
+            padding-bottom: 130px;
             width: 95vw;
             margin: 0 auto;
             display:flex;
@@ -81,10 +78,10 @@ const HowDoStyle = styled.div`
         
     }
     @media only screen and (min-width:1025px) and (max-width:1440px){
+        margin-bottom: 130px;
         .conteiner1{
-            padding-top: 20%;
-            padding-bottom: 20%;
-
+            padding-top: 130px;
+            padding-bottom: 130px;
             width: 80vw;
             margin: 0 auto;
             display:flex;
@@ -120,10 +117,10 @@ const HowDoStyle = styled.div`
         }
     }
     @media only screen and (min-width:1441px){
-
+        margin-bottom: 150px;
         .conteiner1{
-            padding-top: 20%;
-            padding-bottom: 20%;
+            padding-top: 150px;
+            padding-bottom: 150px;
             width: 80vw;
             margin: 0 auto;
             display:flex;

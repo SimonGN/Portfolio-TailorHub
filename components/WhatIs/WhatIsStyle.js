@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const WhatIsStyle = styled.div`
   width: 100vw;
-  padding-bottom:100px;
+  margin-bottom:100px;
   img{
     object-fit:cover
   }
@@ -71,6 +71,8 @@ const WhatIsStyle = styled.div`
   }
   }
   @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    margin-top:130px;
+    margin-bottom:130px;
     .global {
       display: flex;
       flex-direction: row;
@@ -78,7 +80,8 @@ const WhatIsStyle = styled.div`
       width: 80vw;
       height: auto;
       margin: 0 auto;
-      padding-top: 12%;
+      padding:0;
+
     }
     .imgGlobal {
       width:45%;
@@ -151,6 +154,7 @@ const WhatIsStyle = styled.div`
     }
   }
   @media only screen and (min-width: 1441px) {
+    margin-bottom: 150px;
     .global {
       display: flex;
       flex-direction: row;
@@ -163,11 +167,11 @@ const WhatIsStyle = styled.div`
     }
     .imgGlobal {
       padding: 0;
-      width:45%;
+      width:40%;
     }
     .img1,.img2,.img3,.img4 {
-      width:15vw;
-      max-height:350px;
+      width:13vw;
+      max-height:280px;
     }
     .img1,.img3 {
       margin-right:3%;
@@ -182,11 +186,14 @@ const WhatIsStyle = styled.div`
       transform: rotate(180deg);
       margin:0;
       padding:0;
+      left: 0%;
+      position: relative;
       
     }
     .text{
-      width: 44%;
-      margin-left: 3%;
+      width: 37%;
+      margin-left: 1%;
+
 
     }
   }

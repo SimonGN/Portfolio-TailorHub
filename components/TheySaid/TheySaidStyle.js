@@ -5,7 +5,7 @@ const TheySaidStyle = styled.div`
     background-color: #0F1C51;
     height:auto;
     padding-top:100px;
-    padding-bottom:100px;
+    padding-bottom:130px;
     outline: none !important;
     .slick-slider , .slick-track, .slick-active, .slick-current, .slick-initialized, .slick-list{
     outline: none !important;
@@ -30,10 +30,10 @@ const TheySaidStyle = styled.div`
         margin:auto;
     }
     .title{
-        padding-bottom:25%;
+        padding-bottom:30px;
     }
     .subTitle{
-        margin-bottom: 15px;
+        margin-bottom: 20px;
     }
     .embed-container { 
         position: relative; 
@@ -63,15 +63,8 @@ const TheySaidStyle = styled.div`
         .global{
             width: 94vw;
         }
-        .subTitle{
-            margin-bottom: 5%;
-        }
         .galery{
             margin: 0 auto;
-        }
-       
-        .videoText{
-            margin-top:5%;
         }
     }
     @media only screen and (min-width:769px) and (max-width:1024px){
@@ -163,12 +156,12 @@ const TheySaidStyle = styled.div`
 
     }
     @media only screen and (min-width:1441px){
+        padding-top:20px;
+        padding-bottom: 50px;
         .global{
             width:65vw;
             margin: 0 auto;
             position: relative;
-            padding-top:7%;
-            padding-bottom: 7%;
         }
         .title{
             width:50vw;
@@ -180,8 +173,8 @@ const TheySaidStyle = styled.div`
             transform: rotate(180deg);
             margin-bottom:0%;
             position:absolute;
-            left: 46.5%;
-            top: 35%;
+            left: 46%;
+            top: 25%;
         }
         .client{
             display:flex !important;

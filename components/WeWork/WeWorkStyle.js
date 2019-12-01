@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const WeWorkStyle = styled.div`
 padding-bottom:100px;
   p{
-    margin-bottom:10px;
+    margin-bottom:15px;
   }
   .conteiner1 {
     height: auto;
@@ -41,7 +41,7 @@ padding-bottom:100px;
     justify-content: center;
   }
   .title1, .title2 {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
   }
   .imgs1 {
     width: 106vw;
@@ -58,7 +58,7 @@ padding-bottom:100px;
       width: 94vw;
       margin: 0 auto;
       display: flex;
-      margin-top:3%;
+      margin-top:0;
       justify-content: space-between;
       flex-wrap: wrap;
       div {
@@ -66,19 +66,23 @@ padding-bottom:100px;
        text-align: left;
       }
     }
-
+    .info1{
+      margin-top:-30px;
+    }
   }
   @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    
+    padding-bottom: 130px;
     .conteiner2{
-      padding-top:20%;
-
-      padding-bottom:20%;
+      padding-bottom:130px;
       position:relative;
     }
     .info1 {
       display: flex;
       align-items: center;
+      margin-top: -30px;
+      white-space: nowrap;
+      width: 88vw;
+      margin: 0 auto;
     }
     .title1 {
       writing-mode: vertical-rl;
@@ -89,15 +93,15 @@ padding-bottom:100px;
       writing-mode: vertical-rl;
       transform: rotate(180deg);
       position: absolute;
-      right: 44%;
-      top: 62%;
+      right: 45%;
+      top: 60.5%;
     }
     .conteinerHiring{
       width: 80%;
       margin: 0 auto;
     }
     .paragraph2 {
-      width: 85vw;
+      width: 81vw;
       margin: 0 auto;
       display: flex;
       justify-content: space-between;
@@ -107,12 +111,12 @@ padding-bottom:100px;
         text-align:left;
       }
     }
-    .img2{
-      margin-bottom: 5%;
+    .imgs2{
+      margin-bottom: 50px;
     }
   }
   @media only screen and (min-width: 1025px) and (max-width: 1440px) {
-   
+   padding-bottom:130px;
     .conteiner1 {
       width: 80vw;
       display: flex;
@@ -122,13 +126,10 @@ padding-bottom:100px;
     .conteiner2{
       text-align:center;
       position:relative;
-      padding-bottom:20%;
-      padding-top:20%;
-
-
+      padding-bottom:130px;
     }
     .conteinerHiring{
-      width: 80%;
+      width: 70%;
       margin: 0 auto;
     }
     p {
@@ -143,7 +144,7 @@ padding-bottom:100px;
       margin-left: 0;
       writing-mode: vertical-lr;
       transform: rotate(180deg);
-      margin-left: -7%;
+      margin-left: -13%;
     }
     .title2{
       writing-mode: vertical-rl;
@@ -178,7 +179,7 @@ padding-bottom:100px;
     }
   }
   @media only screen and (min-width: 1441px) {
-   
+    padding-bottom:150px;
     .conteiner1 {
       width: 80vw;
       display: flex;
@@ -188,16 +189,14 @@ padding-bottom:100px;
     .conteiner2{
       text-align:center;
       position:relative;
-      padding-bottom:10%;
-      padding-top:20%;
+      padding-bottom:150px;
     }
     .conteinerHiring{
       width: 80%;
       margin: 0 auto;
-      padding-bottom: 20%;
     }
     p {
-      margin-bottom: 5%;
+      margin-bottom: 15px;
     }
     .info1 {
       display: flex;
@@ -217,29 +216,29 @@ padding-bottom:100px;
       transform: rotate(180deg);
       position: absolute;
       right: 46.4%;
-      top: 71%;
+      top: 61%;
     }
     .imgs1 {
       width: 93%;
-      margin-left: -28%;
+      margin-left: -37%;
       margin-bottom: -15%;
     }
     .imgs2{
       margin: 0 auto;
-      width: 80%;
-      margin-bottom: 5%;
+      width: 70%;
+      margin-bottom: 80px;
     }
     .paragraph1{
       padding-left: 4%;
     }
 
     .conteinerHiring{
-      width: 75vw;
+      width: 65vw;
       margin: 0 auto;
     }
 
     .paragraph2 {
-      width: 70vw;
+      width: 65vw;
       margin: 0 auto;
       display: flex;
       justify-content: space-between;

@@ -206,16 +206,12 @@ const Galery = styled.div`
 
   .slick-dots {
     position: absolute;
-    bottom: -25px;
-
+    bottom: -50px;
     display: block;
-
     width: 100%;
     padding: 0;
     margin: 0;
-
     list-style: none;
-
     text-align: center;
   }
   .slick-dots li {

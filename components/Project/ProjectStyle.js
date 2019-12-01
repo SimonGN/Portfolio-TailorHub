@@ -1,185 +1,100 @@
 import styled from 'styled-components';
 
 const ProjectStyle = styled.div`
-padding-bottom:100px;
+  padding-bottom: 150px;
   Link{
     cursor:pointer;
   }
   p{
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    color: #0F1C51;
   }
   .slick-slider , .slick-track, .slick-active, .slick-current, .slick-initialized, .slick-list{
     outline: none !important;
-
-    .client {
-        outline: none;
-    }
-    &:active{
-        outline: none !important;
-    }
-    }    
-    .slick-list{
-      padding-top: 3%;
-    }
-  .infomationStye{
-    width:94vw;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    position: unset;
-    z-index: 1;
-    margin:0 auto;
-    margin-top: 30px;
-    p{
-      color: #0F1C51;
-    }
   }
-  .ourProject {
-    width:100vw;
-    height: auto;
-    margin: 0 auto;
-    display: flex;
-    flex-flow: column;
-    align-content: center;
-    justify-content: center;
-    flex-direction: column-reverse;
+  .client {
+     outline: none;
   }
-
-  .contentProject {
-    display: flex !important;
-    justify-content: center;
-    align-items: center;
-    outline: none;
+  &:active{
+    outline: none !important;
   }
-  .contentImg {
-    position: relative;
-    text-align: center;
+  .slick-list{
+    padding-top: 3%;
   }
-  .imgProject {
-    height: 70vh;
+  .imgProject{
+    width: 100vw;
+    height: 80vh;
     object-fit: cover;
+    margin-bottom:30px;
   }
-  .viewMore{
-    a{
-        margin-right: 10%;
-      }
+  .infomationStye{
+    width:94%;
+    margin: 0 auto;
   }
+  .viewMore >a{
+    margin-right:4%;
+  }
+ 
 
   @media only screen and (min-width:415px) and (max-width:768px){
     
   }
   @media only screen and (min-width:769px) and (max-width:1024px){
-    display: flex;
-    align-items: center;
-    flex-direction:column;
-    padding-bottom:20%;
-    .ourProject{
-      justify-content: flex-end;
-      align-items: baseline;
+    .imgProject{
+      margin-bottom: 35px;
+      height: 50vh;
     }
     .infomationStye{
-      margin-left:1%;
-      padding-bottom: 5%;
-      position:absolute;
+      width: 85vw;
+      display: flex;
+      align-items: center;
     }
     .title{
-      writing-mode: vertical-rl;
+      width:auto;
+      white-space: nowrap;
+      writing-mode: vertical-lr;
       transform: rotate(180deg);
-      margin-right:5%;
-      margin-right: 0;
-      margin-left: 0;
-    }
-    .info2{
-      margin-top:5%;
-    }
-    .viewMore{
-      margin-top: 5%;
-      a{
-        margin-right: 10%;
+      p{
+        margin-bottom: 0;
       }
-    }
-    .imgProject {
-      height: 90vh;
-      width: 100vw;
-    }
-    .ourProject{
-      padding-top: 20%;
     }
   }
   @media only screen and (min-width:1025px) and (max-width:1440px){
-    display: flex;
-    align-items: center;
-    flex-direction:column;
-    padding-bottom:20%;
-    .ourProject{
-      justify-content: flex-end;
-      align-items: baseline;
+    .imgProject{
+      margin-bottom: 35px
     }
     .infomationStye{
-      margin-left:1%;
-      padding-bottom: 5%;
-      position:absolute;
+      width: 85vw;
+      display: flex;
+    align-items: center;
     }
     .title{
-      writing-mode: vertical-rl;
+      width:auto;
+      white-space: nowrap;
+      writing-mode: vertical-lr;
       transform: rotate(180deg);
-      margin-right:5%;
-      margin-right: 0;
-      margin-left: 0;
-    }
-    .info2{
-      margin-top:5%;
-    }
-    .viewMore{
-      margin-top: 5%;
-      a{
-        margin-right: 10%;
+      p{
+        margin-bottom: 0;
       }
-    }
-    .imgProject {
-      height: 90vh;
-      width: 100vw;
-    }
-    .ourProject{
-      padding-top: 20%;
     }
   }
   @media only screen and (min-width:1441px){
-    display: flex;
-    align-items: center;
-    flex-direction:column;
-    padding-bottom:20%;
-    .ourProject{
-      justify-content: flex-end;
-      align-items: baseline;
+    .imgProject{
+      margin-bottom: 35px
     }
     .infomationStye{
-      margin-left:1%;
-      padding-bottom: 5%;
-      position:absolute;
+      width: 85vw;
+      display: flex;
+    align-items: center;
     }
     .title{
-      writing-mode: vertical-rl;
+      width:auto;
+      white-space: nowrap;
+      writing-mode: vertical-lr;
       transform: rotate(180deg);
-      margin-right:5%;
-      margin-right: 0;
-      margin-left: 0;
-    }
-    .info2{
-      margin-top:5%;
-    }
-    .viewMore{
-      margin-top: 5%;
-      a{
-        margin-right: 10%;
+      p{
+        margin-bottom: 0;
       }
-    }
-    .imgProject {
-      height: 90vh;
-      width: 100vw;
-    }
-    .ourProject{
-      padding-top: 20%;
     }
   }
 

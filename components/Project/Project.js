@@ -18,8 +18,7 @@ class OurProjects extends React.Component {
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
-      autoplay: true,
-      autoplaySpeed: 3000
+
     }
   };
 
@@ -29,39 +28,62 @@ class OurProjects extends React.Component {
 
     return (
       <ProjectStyle>
-        <div className="ourProject" ref={projectRef}>
-          <div className="infomationStye">
-            <div className="title">
-              <Fontp className="info1" color="white">{t('Project1')}</Fontp>
-            </div>
-            <div className="text">
-              <div lassName="Description">
-                <Fontp className="info1"color="white">{t('Description1')}</Fontp>
-                <Fontp className="info2"color="white">{t('Stack1')}</Fontp>
-              </div>
-              <div className="viewMore">
-                <Link style="cursor:pointer" href="/projectAmaped"><Fonta>{t('button1')}</Fonta></Link>
-                <Link style="cursor:pointer" href="/projectAmaped"><Fonta>{t('button2')}</Fonta></Link>
-              </div>
-            </div>
-          </div>
 
-          <Galery >
-            <div>
-              <Slider {...settings}>
+        <Galery >
+          
+            <Slider {...settings}>
 
-                <div className="contentProject">
-                  <div className="contentImg">
-                    <img className="imgProject" src="/static/img/project/tailorAmaped.jpg" />
+              <div className="contentProject">
+                <div className="contentImg">
+                  <img className="imgProject" src="/static/img/project/tailorAmaped.jpg" />
+                </div>
+                <div className="infomationStye">
+                  <div className="title">
+                    <Fontp className="info1" color="white">{t('Project1')}</Fontp>
+                  </div>
+                  <div className="text">
+                    <div lassName="Description">
+                      <Fontp className="info1" color="white">{t('Description1')}</Fontp>
+                      <Fontp className="info2" color="white">{t('Stack1')}</Fontp>
+                    </div>
+                    <div className="viewMore">
+                      <Link style="cursor:pointer" href="/projectAmaped"><Fonta>{t('button1')}</Fonta></Link>
+                      <Link style="cursor:pointer" href="/projectAmaped"><Fonta>{t('button2')}</Fonta></Link>
+                    </div>
                   </div>
                 </div>
+              </div>
 
-              </Slider>
-            </div>
-          </Galery>
+              <div className="contentProject">
+                <div className="contentImg">
+                  <img className="imgProject" src="/static/img/project/tailorAmaped.jpg" />
+                </div>
+                <div className="infomationStye">
+                  <div className="title">
+                    <Fontp className="info1" color="white">{t('Project1')}</Fontp>
+                  </div>
+                  <div className="text">
+                    <div lassName="Description">
+                      <Fontp className="info1" color="white">{t('Description1')}</Fontp>
+                      <Fontp className="info2" color="white">{t('Stack1')}</Fontp>
+                    </div>
+                    <div className="viewMore">
+                      <Link style="cursor:pointer" href="/projectAmaped"><Fonta>{t('button1')}</Fonta></Link>
+                      <Link style="cursor:pointer" href="/projectAmaped"><Fonta>{t('button2')}</Fonta></Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-        </div>
-      </ProjectStyle>
+
+
+
+            </Slider>
+          
+        </Galery>
+
+       
+      </ProjectStyle >
     );
   }
 }

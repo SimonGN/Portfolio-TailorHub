@@ -1,7 +1,6 @@
 import Meta from "../components/Meta";
 import React, { createRef } from "react";
 import PropTypes from "prop-types";
-import Tailor from "../components/Tailor/Tailor";
 import Navbar from "../components/Navbar/Navbar";
 import WhatIs from "../components/WhatIs/WhatIs";
 import Project from "../components/Project/Project";
@@ -70,7 +69,6 @@ class Home extends React.Component {
       <React.Fragment>
         <Meta />
         <Navbar link="Menu" handleScroll={this.handleScroll} />
-        {/* <Tailor /> */}
         <WhatIs />
         <Project projectRef={e => (this.ref = e)} />
         <WeWork />
