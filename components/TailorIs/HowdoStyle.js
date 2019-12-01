@@ -86,8 +86,10 @@ const HowDoStyle = styled.div`
             margin: 0 auto;
             display:flex;
             flex-flow:row;
-            justify-content: center;
+            display: flex;
+            justify-content: space-between;
             align-items: center;
+
         }
         .title{
             writing-mode: vertical-rl;
@@ -102,7 +104,7 @@ const HowDoStyle = styled.div`
             margin-top: 0;
         }
         .text1, .text2{
-            width: 45%;
+            width: 40%;
         }
         .text1{
             order:1;
@@ -118,14 +120,17 @@ const HowDoStyle = styled.div`
     }
     @media only screen and (min-width:1441px){
         margin-bottom: 150px;
+        display: flex;
+        justify-content: space-between;
         .conteiner1{
             padding-top: 150px;
             padding-bottom: 150px;
-            width: 80vw;
+            width: 75vw;
             margin: 0 auto;
             display:flex;
             flex-flow:row;
-            justify-content: center;
+            display: flex;
+            justify-content: space-between;
             align-items: center;
         }
         .title{
@@ -143,7 +148,7 @@ const HowDoStyle = styled.div`
             margin-right: 0px;
         }
         .text1, .text2{
-            width: 35%;
+            width: 40%;
         }
         .text1{
             order:1;
@@ -153,7 +158,7 @@ const HowDoStyle = styled.div`
             order:3;
         }
         .imgValors {
-        width: 100%;
+            width: 100%;
         }
     }
 `;

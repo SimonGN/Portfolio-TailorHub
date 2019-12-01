@@ -46,8 +46,7 @@ class OurProjects extends React.Component {
                 <div className="other">
                   <Fontp className="info2" color="white">{t('StackWeb7')}</Fontp>
                   <div className="links">
-                    <a href=""><Fonta>{t('button1')}</Fonta></a>
-                    <a href=""><Fonta>{t('button2')}</Fonta></a>
+                    <a href=""><Fonta>{t('button3')}</Fonta></a>
                   </div>
                 </div>
               </div>
@@ -67,8 +66,7 @@ class OurProjects extends React.Component {
                 <div className="other">
                   <Fontp className="info2" color="white">{t('StackWeb6')}</Fontp>
                   <div className="links">
-                    <a href=""><Fonta>{t('button1')}</Fonta></a>
-                    <a href=""><Fonta>{t('button2')}</Fonta></a>
+                    <a href=""><Fonta>{t('button3')}</Fonta></a>
                   </div>
                 </div>
               </div>

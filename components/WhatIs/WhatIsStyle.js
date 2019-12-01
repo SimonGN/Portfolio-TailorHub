@@ -116,6 +116,8 @@ const WhatIsStyle = styled.div`
     }
   }
   @media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    margin-bottom: 150px;
+    padding-top:150px;
     .global {
       display: flex;
       flex-direction: row;
@@ -124,7 +126,7 @@ const WhatIsStyle = styled.div`
       width: 75vw;
       height: auto;
       margin: 0 auto;
-      padding-top: 12%;
+      padding-top: 0;
     }
     .imgGlobal {
       padding: 0;

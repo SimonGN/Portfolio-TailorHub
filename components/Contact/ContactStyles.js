@@ -10,17 +10,15 @@ const ContactStyle = styled.div`
     .global{
         width:94%;
         margin: 0 auto;
-        padding-top:20%;
-        padding-bottom: 20%;
+        padding-top: 100px;
+        padding-bottom: 100px
     }
     a{
         text-decoration:none; 
     }
-    .title{
-        margin-bottom:5%;
-    }
+
     .container1, .container2{
-        margin-bottom:25%;
+        margin-bottom:100px;
     }
     .intro{
         margin-bottom:10%;
@@ -34,14 +32,20 @@ const ContactStyle = styled.div`
     @media only screen and (min-width:415px) and (max-width:768px){
         min-height: 100vh;
         .global{
-            padding-top: 10%;
+            padding-top: 100px;
         }
-        .container1, .container2{
-            margin-bottom:20%;
+        .container1, .container2, .container3{
+            margin-bottom:100px;
+            display:flex;
+            align-items: center;
         }
         .intro{
-        margin-bottom:5%;
-    }
+            margin-bottom:30px;
+        }
+        .title{
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+        }
     }
     @media only screen and (min-width:769px) and (max-width:1024px){
         display: flex;
@@ -55,6 +59,10 @@ const ContactStyle = styled.div`
             height: 100%;
             object-fit:cover;
 
+        }
+        .title{
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
         }
         .global{
             width:45%;
@@ -76,18 +84,13 @@ const ContactStyle = styled.div`
             width: 80%;
             margin-left: 2%;
         }
-        .title{
-            margin-bottom: 16%;
-        }
         
         .container1, .container2, .container3{
-            width:100%;
-            display: flex;
+            margin-bottom:100px;
+            display:flex;
+            align-items: center;
         }
 
-        .container1, .container3{
-            margin-bottom:10%;
-        }
         .container2{
             margin:0; 
         }
@@ -124,6 +127,8 @@ const ContactStyle = styled.div`
             display:flex;
             flex-flow: column;
             justify-content:center;
+            padding-top: 130px;
+            padding-bottom: 130px;
             .container3{
                 order: 0;
             }
@@ -138,15 +143,14 @@ const ContactStyle = styled.div`
         .title{
             margin-bottom: 0;
             text-align: center;
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
         }
         
         .container1, .container2, .container3{
             width:100%;
             display: flex;
-        }
-
-        .container1, .container3{
-            margin-bottom:10%;
+            margin-bottom:130px;
         }
         .container2{
             margin:0; 
@@ -184,6 +188,8 @@ const ContactStyle = styled.div`
             display:flex;
             flex-flow: column;
             justify-content:center;
+            padding-top: 150px;
+            padding-bottom: 150px;
             .container3{
                 order: 0;
             }
@@ -198,15 +204,14 @@ const ContactStyle = styled.div`
         .title{
             margin-bottom: 0;
             text-align: center;
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
         }
         
         .container1, .container2, .container3{
             width:100%;
             display: flex;
-        }
-
-        .container1, .container3{
-            margin-bottom:10%;
+            margin-bottom:150px;
         }
         .container2{
             margin:0; 

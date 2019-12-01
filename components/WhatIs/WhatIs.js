@@ -28,7 +28,7 @@ const WhatIs = props => {
         <div className="text"data-aos="fade-in" data-aos-duration="2300">
             <Fontp>{t("pageTitle1Info1")}</Fontp>
             <Fontp>{t("pageTitle1Info2")}</Fontp>
-            <Fontp>{t("pageTitle1Info3")}</Fontp>
+            {/* <Fontp>{t("pageTitle1Info3")}</Fontp> */}
           </div>
       </div>
     </WhatIsStyle>
