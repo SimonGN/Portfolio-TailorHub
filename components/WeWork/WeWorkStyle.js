@@ -129,8 +129,9 @@ padding-bottom:100px;
       padding-bottom:130px;
     }
     .conteinerHiring{
-      width: 70%;
+      width: 80%;
       margin: 0 auto;
+      
     }
     p {
       margin-bottom: 5%;
@@ -167,7 +168,7 @@ padding-bottom:100px;
       margin-left: 3%;
     }
     .paragraph2 {
-      width: 70vw;
+      width: 80vw;
       margin: 0 auto;
       display: flex;
       justify-content: space-between;

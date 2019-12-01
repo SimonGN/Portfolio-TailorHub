@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import { ProjectStyle } from "./ProjectStyle";
 import { Galery } from "./Galery";
 
@@ -30,59 +29,161 @@ class OurProjects extends React.Component {
       <ProjectStyle>
 
         <Galery >
-          
-            <Slider {...settings}>
 
-              <div className="contentProject">
-                <div className="contentImg">
-                  <img className="imgProject" src="/static/img/project/tailorAmaped.jpg" />
+          <Slider {...settings}>
+
+            <div className="contentProject">
+              <div className="contentImg">
+                <img className="imgProject" src="/static/img/project/tailorAmaped.jpg" />
+              </div>
+              <div className="infomationStye">
+                <div className="title">
+                  <Fontp className="info1" color="white">{t('Project7')}</Fontp>
                 </div>
-                <div className="infomationStye">
-                  <div className="title">
-                    <Fontp className="info1" color="white">{t('Project1')}</Fontp>
-                  </div>
-                  <div className="text">
-                    <div lassName="Description">
-                      <Fontp className="info1" color="white">{t('Description1')}</Fontp>
-                      <Fontp className="info2" color="white">{t('Stack1')}</Fontp>
-                    </div>
-                    <div className="viewMore">
-                      <Link style="cursor:pointer" href="/projectAmaped"><Fonta>{t('button1')}</Fonta></Link>
-                      <Link style="cursor:pointer" href="/projectAmaped"><Fonta>{t('button2')}</Fonta></Link>
-                    </div>
+                <div className="description">
+                  <Fontp className="info1" color="white">{t('Description7')}</Fontp>
+                </div>
+                <div className="other">
+                  <Fontp className="info2" color="white">{t('StackWeb7')}</Fontp>
+                  <div className="links">
+                    <a href=""><Fonta>{t('button1')}</Fonta></a>
+                    <a href=""><Fonta>{t('button2')}</Fonta></a>
                   </div>
                 </div>
               </div>
+            </div>
 
-              <div className="contentProject">
-                <div className="contentImg">
-                  <img className="imgProject" src="/static/img/project/tailorAmaped.jpg" />
+            <div className="contentProject">
+              <div className="contentImg">
+                <img className="imgProject" src="/static/img/project/tailorAmaped.jpg" />
+              </div>
+              <div className="infomationStye">
+                <div className="title">
+                  <Fontp className="info1" color="white">{t('Project6')}</Fontp>
                 </div>
-                <div className="infomationStye">
-                  <div className="title">
-                    <Fontp className="info1" color="white">{t('Project1')}</Fontp>
-                  </div>
-                  <div className="text">
-                    <div lassName="Description">
-                      <Fontp className="info1" color="white">{t('Description1')}</Fontp>
-                      <Fontp className="info2" color="white">{t('Stack1')}</Fontp>
-                    </div>
-                    <div className="viewMore">
-                      <Link style="cursor:pointer" href="/projectAmaped"><Fonta>{t('button1')}</Fonta></Link>
-                      <Link style="cursor:pointer" href="/projectAmaped"><Fonta>{t('button2')}</Fonta></Link>
-                    </div>
+                <div className="description">
+                  <Fontp className="info1" color="white">{t('Description6')}</Fontp>
+                </div>
+                <div className="other">
+                  <Fontp className="info2" color="white">{t('StackWeb6')}</Fontp>
+                  <div className="links">
+                    <a href=""><Fonta>{t('button1')}</Fonta></a>
+                    <a href=""><Fonta>{t('button2')}</Fonta></a>
                   </div>
                 </div>
               </div>
+            </div>
 
+            <div className="contentProject">
+              <div className="contentImg">
+                <img className="imgProject" src="/static/img/project/tailorAmaped.jpg" />
+              </div>
+              <div className="infomationStye">
+                <div className="title">
+                  <Fontp className="info1" color="white">{t('Project5')}</Fontp>
+                </div>
+                <div className="description">
+                  <Fontp className="info1" color="white">{t('Description5')}</Fontp>
+                </div>
+                <div className="other">
+                  <Fontp className="info2" color="white">{t('StackWeb5')}</Fontp>
+                  <div className="links">
+                    <a href=""><Fonta>{t('button1')}</Fonta></a>
+                    <a href=""><Fonta>{t('button2')}</Fonta></a>
+                  </div>
+                </div>
+              </div>
+            </div>
 
+            <div className="contentProject">
+              <div className="contentImg">
+                <img className="imgProject" src="/static/img/project/tailorAmaped.jpg" />
+              </div>
+              <div className="infomationStye">
+                <div className="title">
+                  <Fontp className="info1" color="white">{t('Project4')}</Fontp>
+                </div>
+                <div className="description">
+                  <Fontp className="info1" color="white">{t('Description4')}</Fontp>
+                </div>
+                <div className="other">
+                  <Fontp className="info2" color="white">{t('StackWeb4')}</Fontp>
+                  <div className="links">
+                    <a href=""><Fonta>{t('button1')}</Fonta></a>
+                    <a href=""><Fonta>{t('button2')}</Fonta></a>
+                  </div>
+                </div>
+              </div>
+            </div>
 
+            <div className="contentProject">
+              <div className="contentImg">
+                <img className="imgProject" src="/static/img/project/tailorAmaped.jpg" />
+              </div>
+              <div className="infomationStye">
+                <div className="title">
+                  <Fontp className="info1" color="white">{t('Project3')}</Fontp>
+                </div>
+                <div className="description">
+                  <Fontp className="info1" color="white">{t('Description3')}</Fontp>
+                </div>
+                <div className="other">
+                  <Fontp className="info2" color="white">{t('StackWeb3')}</Fontp>
+                  <div className="links">
+                    <a href=""><Fonta>{t('button1')}</Fonta></a>
+                    <a href=""><Fonta>{t('button2')}</Fonta></a>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-            </Slider>
-          
+            <div className="contentProject">
+              <div className="contentImg">
+                <img className="imgProject" src="/static/img/project/tailorAmaped.jpg" />
+              </div>
+              <div className="infomationStye">
+                <div className="title">
+                  <Fontp className="info1" color="white">{t('Project2')}</Fontp>
+                </div>
+                <div className="description">
+                  <Fontp className="info1" color="white">{t('Description2')}</Fontp>
+                </div>
+                <div className="other">
+                  <Fontp className="info2" color="white">{t('StackWeb2')}</Fontp>
+                  <div className="links">
+                    <a href=""><Fonta>{t('button1')}</Fonta></a>
+                    <a href=""><Fonta>{t('button2')}</Fonta></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="contentProject">
+              <div className="contentImg">
+                <img className="imgProject" src="/static/img/project/tailorAmaped.jpg" />
+              </div>
+              <div className="infomationStye">
+                <div className="title">
+                  <Fontp className="info1" color="white">{t('Project1')}</Fontp>
+                </div>
+                <div className="description">
+                  <Fontp className="info1" color="white">{t('Description1')}</Fontp>
+                </div>
+                <div className="other">
+                  <Fontp className="info" color="white">{t('StackWeb1')}</Fontp>
+                  <div className="links">
+                    <a href=""><Fonta>{t('button1')}</Fonta></a>
+                    <a href=""><Fonta>{t('button2')}</Fonta></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </Slider>
+
         </Galery>
 
-       
+
       </ProjectStyle >
     );
   }

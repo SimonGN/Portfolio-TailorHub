@@ -50,7 +50,6 @@ const WhatIsStyle = styled.div`
     .global {
       height: auto;
       padding-top: 80px;
-      
     }
     .img1,.img2,.img3,.img4 {
       width: 30%;
@@ -63,6 +62,7 @@ const WhatIsStyle = styled.div`
     .img2, .img1 {
       margin-bottom: 2%;
     }
+
     .title {
       margin-bottom: 20px;
     }
@@ -77,6 +77,7 @@ const WhatIsStyle = styled.div`
       display: flex;
       flex-direction: row;
       align-items:center;
+      justify-content: space-between;
       width: 80vw;
       height: auto;
       margin: 0 auto;
@@ -84,7 +85,7 @@ const WhatIsStyle = styled.div`
 
     }
     .imgGlobal {
-      width:45%;
+      width:40%;
       padding: 0;
     }
     .img1,.img2,.img3,.img4 {
@@ -98,14 +99,12 @@ const WhatIsStyle = styled.div`
       margin-bottom: 3%;
     }
     .title {
-      width:14%;
-      display:flex;
-      text-align:center;
       white-space: nowrap;
       writing-mode: vertical-lr;
       transform: rotate(180deg);
-      margin:0;
-      padding:0;
+    }
+    .text{
+      width:40%;
     }
     .textWhatis {
       width:45%;
@@ -120,16 +119,16 @@ const WhatIsStyle = styled.div`
     .global {
       display: flex;
       flex-direction: row;
-      justify-content: center;
       align-items:center;
-      width: 80vw;
+      justify-content: space-between;
+      width: 75vw;
       height: auto;
       margin: 0 auto;
       padding-top: 12%;
     }
     .imgGlobal {
       padding: 0;
-      width: 39%;
+      width: 40%;
     }
     .img1,.img2,.img3,.img4 {
       width:17.5vw;
@@ -142,15 +141,13 @@ const WhatIsStyle = styled.div`
       margin-bottom: 3%;
     }
     .title {
-      width:12%;
       white-space: nowrap;
       writing-mode: vertical-lr;
       transform: rotate(180deg);
-      margin:0;
-      padding:0;
+      margin-left: 3%;
     }
     .text{
-      width: 44%;
+      width: 40%;
     }
   }
   @media only screen and (min-width: 1441px) {
@@ -158,9 +155,9 @@ const WhatIsStyle = styled.div`
     .global {
       display: flex;
       flex-direction: row;
-      justify-content: center;
       align-items:center;
-      width: 80vw;
+      justify-content: space-between;
+      width: 65vw;
       height: auto;
       margin: 0 auto;
       padding-top: 12%;
@@ -180,18 +177,13 @@ const WhatIsStyle = styled.div`
       margin-bottom: 3%;
     }
     .title {
-      width:7%;
       white-space: nowrap;
       writing-mode: vertical-lr;
       transform: rotate(180deg);
-      margin:0;
-      padding:0;
-      left: 0%;
-      position: relative;
-      
+      margin-left: 3%;
     }
     .text{
-      width: 37%;
+      width: 40%;
       margin-left: 1%;
 
 

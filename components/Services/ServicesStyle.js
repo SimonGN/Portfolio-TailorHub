@@ -109,9 +109,8 @@ const ServicesStyle = styled.div`
             padding-bottom:130px;
         }
         .title{
-
             left: 4.5%;
-            top: 15%;
+            top: 19%;
         }
         .svg {
             width:1000vw;

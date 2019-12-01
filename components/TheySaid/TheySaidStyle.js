@@ -114,13 +114,10 @@ const TheySaidStyle = styled.div`
             width:80vw;
             margin: 0 auto;
             position: relative;
-            padding-top: 7%;
-            padding-bottom:7%;
         }
         .title{
             width:50vw;
             margin:0;
-            padding-bottom:25%;
         }
         .subTitle{
             writing-mode: vertical-rl;
@@ -128,7 +125,7 @@ const TheySaidStyle = styled.div`
             margin-bottom:0%;
             position:absolute;
             left: 47%;
-            top: 32%;
+            top: 28%;
         }
         .client{
             display:flex !important;
@@ -142,7 +139,7 @@ const TheySaidStyle = styled.div`
             margin-right:10%;
         }
         .videoText{
-            width:44%;
+            width:40%;
         }
         .embed-container { 
             position: relative; 
@@ -162,6 +159,8 @@ const TheySaidStyle = styled.div`
             width:65vw;
             margin: 0 auto;
             position: relative;
+            display:flex;
+            justify-content:space-between;
         }
         .title{
             width:50vw;
@@ -174,19 +173,19 @@ const TheySaidStyle = styled.div`
             margin-bottom:0%;
             position:absolute;
             left: 46%;
-            top: 25%;
+            top: 26%;
         }
         .client{
             display:flex !important;
             align-items:center;
         }
         .video{
-            width:45%;
+            width:40%;
             margin: 0 auto;
             margin-right:10%;
         }
         .videoText{
-            width:44%;
+            width:40%;
         }
 
         .embed-container { 

@@ -1,46 +1,46 @@
 {
     "pageTitle1":"Qué es Tailor",
-    "pageTitle1Info1":"Tailor es una boutique digital cuyo objetivo es dar forma a ideas creando productos digitales que te harán marcar la diferencia.", 
-    "pageTitle1Info2":"Ofrecemos naming, branding, UX/UI y desarrollo web/APP para dar forma y sentido a tu idea.",
-    "pageTitle1Info3":"Mereces sentirte orgulloso de tus productos digitales y nos aseguramos de que así sea.",
+    "pageTitle1Info1":"Tailor es una boutique digital cuyo objetivo es dar forma a ideas.", 
+    "pageTitle1Info2":"Creamos productos visuales y soluciones digitales para PYMES, startups y grandes empresas.",
 
     "Project7":" Obuu",
-    "Description7":"Un escaparate online de tecnología y talento en la gestión nominas y contabilidad.",
+    "Description7":"",
     "StackWeb7":"React, Node, Express",
-    "StackDesign7": "",
+    "StackDesign7": "Web",
 
     "Project6":"MapaAyuda",
-    "Description6":"Un escaparate online de tecnología y talento en la gestión nominas y contabilidad.",
+    "Description6":"",
     "StackWeb6":"Next JS, React, Node, Express",
-    "StackDesign6": "",
+    "StackDesign6": "Web",
 
     "Project5":"Validere",
-    "Description5":"Un escaparate online de tecnología y talento en la gestión nominas y contabilidad.",
+    "Description5":"",
     "StackWeb5":"Next JS",
-    "StackDesign5": "Naming, Branding, UX&UI",
+    "StackDesign5": "Naming, Branding, Web",
 
     "Project4":"Vasalto",
     "Description4":"Un escaparate online de tecnología y talento en la gestión nominas y contabilidad.",
     "StackWeb4":"Next JS",
-    "StackDesign4": "Diseño UX&UI",
+    "StackDesign4": "Web",
 
     "Project3":"NU:NC",
-    "Description3":"Un escaparate online de tecnología y talento en la gestión nominas y contabilidad.",
-    "StackWeb3":"Next JS, React, React Native, Node, Express, ",
-    "StackDesign3": "Naming, Branding, UX&UI",
+    "Description3":"Registra la jornada de tus empleados sin que nada cambie en tu empresa.",
+    "StackWeb3":"Next JS, React, React Native, Node, Express",
+    "StackDesign3": "Naming, Branding, UX&UI, Web, APP Andorid, APP iOS",
 
     "Project2":"Amaped",
-    "Description2":"Un escaparate online de tecnología y talento en la gestión nominas y contabilidad.",
+    "Description2":"Una transformación digital suave como el dibujo de un niño.",
     "StackWeb2":"Next JS, React, Node, Express, ",
-    "StackDesign2": "Naming, Branding, UX&UI",
+    "StackDesign2": " Branding, UX/UI, Web",
 
     "Project1":"Eijure",
     "Description1":"Un escaparate online de tecnología y talento en la gestión nominas y contabilidad.",
     "StackWeb1":"Next JS",
-    "StackDesign1": "Naming, Branding, UX&UI",
+    "StackDesign1": " Branding, Web",
 
     "button1":"Ver Web",
     "button2":"Ver proyecto",
+    "button3":"(Próximamente)",
 
 
     "pageTitle3":"Cómo trabajamos",
